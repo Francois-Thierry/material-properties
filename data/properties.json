@@ -1,0 +1,45 @@
+[
+  {
+    "material": "CdS",
+    "bulk_bandgap": {
+      "mean": 2.554,
+      "std": 0.025,
+      "data": [
+        {
+          "rt": 2.53,
+          "title": "PellegriniJAP2005",
+          "year": 2005
+        },
+        {
+          "rt": 2.579,
+          "title": "YaoOME2013",
+          "year": 2013
+        }
+      ]
+    }
+  },
+  {
+    "material": "CdSe",
+    "bulk_bandgap": {
+      "mean": 1.763,
+      "std": 0.026,
+      "data": [
+        {
+          "rt": 1.75,
+          "title": "PellegriniJAP2005",
+          "year": 2005
+        },
+        {
+          "rt": 1.74,
+          "title": "TrindadeCM2001",
+          "year": 2001
+        },
+        {
+          "rt": 1.799,
+          "title": "YaoOME2013",
+          "year": 2013
+        }
+      ]
+    }
+  }
+]
