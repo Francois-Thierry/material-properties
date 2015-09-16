@@ -10,8 +10,43 @@
 
 var parseYear = d3.time.format("%Y").parse;
 
+function list(material){
+  document.getElementById('mainContainer').innerHTML = '';
+  $.each(material['properties'], function(index, property){
+    // get the mean value and standard deviation for the property
+    var mean = d3.mean(property["data"], function(d) {return d.value;})
+    var std = d3.deviation(property["data"], function(d) {return d.value;})
+    // round values to 3 digits
+    mean = Math.round(mean*1000)/1000
+    std = Math.round(std*1000)/1000
+    // get the symbol and format subscripts
+    var symbol = property["symbol"]
+    if (symbol.indexOf("_") > -1){
+      symbol = symbol.replace(/_/i, "<sub>") + "</sub>"
+    }
+    // get the unit and format subscripts
+    var unit = property["unit"]
+    if (unit.indexOf("_") > -1){
+      unit = unit.replace(/_/i, "<sub>") + "</sub>"
+    }
+    // $('#mainContainer').append('<div class="wrapBoxContent"><div class="button cssCollapse-target">'+property['name']+' - <b>'+symbol+' = '+mean.toString()+' \xB1 '+std.toString()+' '+unit+'</b></div><div class="cssCollapse-hiddenContent"><div class="innerText"><p>Hello</p></div></div></div>')
+    // $('.button').cssCollapse();
+    var new_id = "graph"+property["symbol"]
+    // alert(new_id);
+    var newDiv = '<div><h3>'+property['name']+' - <b>'+symbol+' = '+mean.toString()+' \xB1 '+std.toString()+' '+unit+'</b></h3><div id="'+new_id+'" class="graph"><svg></svg></div></div>';
+    $('.properties_list').append(newDiv)
+    // $('.properties_list').accordion({active:'false'});
+  // draw(index);
+  });
+  $('.properties_list').accordion("refresh");
+  $('.properties_list').accordion({active:'false'});
 
-function draw(property){
+}
+
+function draw(){
+
+selected_graph = "#graph"+property["symbol"]
+// alert(JSON.stringify(property["data"]))
 
 //                                                                   DATA EXTENT
 //------------------------------------------------------------------------------
@@ -21,9 +56,11 @@ function draw(property){
 
 var xmin = d3.min(property["data"], function(d) { return parseYear(d.year.toString()); })
 var xmax = d3.max(property["data"], function(d) { return parseYear(d.year.toString()); })
-var ymin = d3.min(property["data"], function(d) { return d.rt; })
-var ymax = d3.max(property["data"], function(d) { return d.rt; })
+var ymin = d3.min(property["data"], function(d) { return d.value; })
+var ymax = d3.max(property["data"], function(d) { return d.value; })
 var yrange = ymax - ymin
+
+
 
 var xScale = d3.time.scale()
   .domain([xmin, xmax])
@@ -38,15 +75,18 @@ var yScale = d3.scale.linear()
 
 // clear the div from previous figure
 
-d3.select("#graph").select("svg").remove();
+d3.select(selected_graph).select("svg").remove();
 
 // add new figure
 
-var figure = d3.select("#graph")
+var figure = d3.select(selected_graph)
   .append("svg")
+  .attr("id", "chart")
   .attr("class", "scatterplot")
-  .attr("width", width)
-  .attr("height", height)
+  .attr("width", '100%')
+  .attr("height", '100%')
+  .attr("viewBox", "0 0 960 500")
+  .attr("perserveAspectRatio", "xMinYMid")
   .style("shape-rendering", "geometricPrecision")                                               
 
 
@@ -110,6 +150,21 @@ figure.selectAll(".axis-label")
   .style("font-size", "12px")
   .attr("fill", "#555");
 
+// get the mean value and standard deviation for the property
+
+var mean = d3.mean(property["data"], function(d) {return d.value;})
+var std = d3.deviation(property["data"], function(d) {return d.value;})
+
+var format_symbol = property["symbol"]
+if (format_symbol.indexOf("_") > -1){
+  format_symbol = format_symbol.replace(/_/i, "<sub>") + "</sub>"
+}
+
+// round values to 3 digits
+
+mean = Math.round(mean*1000)/1000
+std = Math.round(std*1000)/1000
+
 // source tooltip
 
 figure.append("text")
@@ -119,29 +174,24 @@ figure.append("text")
     .style("font-size", "18px")
     .attr("fill", "#555")
     // .style("font-weight", "bold")
-    .text("mean"); 
+    .text(""); 
 
 //                                                                     PLOT DATA
 //------------------------------------------------------------------------------
 
 // create Lines
 
-var mean = property["mean"]
-
 var mean_line = d3.svg.line()
   .x(function(d) { return xScale(parseYear(d.year.toString())); })
   .y(function(d) { return yScale(mean); });
 
-var std = property["std"]
+// var std_plus_line = d3.svg.line()
+//   .x(function(d) { return xScale(parseYear(d.year.toString())); })
+//   .y(yScale(mean+std));
 
-var std_plus_line = d3.svg.line()
-  .x(function(d) { return xScale(parseYear(d.year.toString())); })
-  .y(yScale(mean+std));
-
-var std_minus_line = d3.svg.line()
-  .x(function(d) { return xScale(parseYear(d.year.toString())); })
-  .y(function(d) { return yScale(mean-std); });
-  
+// var std_minus_line = d3.svg.line()
+//   .x(function(d) { return xScale(parseYear(d.year.toString())); })
+//   .y(function(d) { return yScale(mean-std); });
 
 // mean value line
 
@@ -150,29 +200,19 @@ figure.append("path")
   .attr("stroke", "#1db34f")
   .style("stroke-width", 5)
 
-// standard deviation lines
+// // standard deviation lines
 
-figure.append("path")
-  .attr("d", std_plus_line(property["data"]))
-  .attr("stroke", "#1db34f")
-  .style("stroke-width", 3)
-  .style("stroke-dasharray", 3)
+// figure.append("path")
+//   .attr("d", std_plus_line(property["data"]))
+//   .attr("stroke", "#1db34f")
+//   .style("stroke-width", 3)
+//   .style("stroke-dasharray", 3)
 
-figure.append("path")
-  .attr("d", std_minus_line(property["data"]))
-
-// figure.selectAll("std_lines")
-// .data(property)
-// .enter()
-// .append("line")
-//   .attr("x1", xmin)
-//   .attr("x2", xmax)
-//   .attr("y1", yScale(mean-std))
-//   .attr("y2", yScale(mean-std))
-
-  .attr("stroke", "#1db34f")
-  .style("stroke-width", 3)
-  .style("stroke-dasharray", 3)
+// figure.append("path")
+//   .attr("d", std_minus_line(property["data"]))
+//   .attr("stroke", "#1db34f")
+//   .style("stroke-width", 3)
+//   .style("stroke-dasharray", 3)
 
 // data as scatter plot
 
@@ -181,16 +221,16 @@ figure.selectAll("circle")
   .enter()
   .append("circle")
   .attr("cx", function(d) { return xScale(parseYear(d.year.toString())); })
-  .attr("cy", function(d) { return yScale(d.rt); })
+  .attr("cy", function(d) { return yScale(d.value); })
   .attr("r", "8")
   .attr("stroke", "#16873c")
   .style("stroke-width", 2)
   .attr("fill", "#1db34f")
   .on("click", function(d) { 
-    figure.select(".tooltip").text(function() { return d.title; }); 
+    // find property
+    citation = getObjects(biblio, 'citationKey', d.ref)[0];
+    figure.select(".tooltip").text(function() { return JSON.stringify(citation); });
 
-
-    
   })
 
 //------------------------------------------------------------------------------

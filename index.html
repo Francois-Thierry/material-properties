@@ -2,35 +2,117 @@
 <html>
   <head>
 
-	<!-- // <script src="d3/jquery-2.1.3.min.js"></script> -->
-    <script src="d3/d3.3.5.5.min.js"></script>
-    <script type="text/javascript" src="javascript/autocomplete.js"></script>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <script src="d3/d3.3.5.5.min.js"></script>
+
+	<script src="js/jquery-2.1.1.js"></script>
+
+
+    <script type="text/javascript" src="js/find-in-json.js"></script>
+
+
+    <link rel="stylesheet" href="css/autocomplete.css">
+    <link rel="stylesheet" href="css/list.css">
     <link rel="stylesheet" href="css/graph.css">
-    <link rel="stylesheet" href="css/style.css">
+	<!-- <link rel="stylesheet" href="css/main.css"> -->
+	<!-- <link rel="stylesheet" href="css/bootstrap-min.css"> -->
+	<link rel="stylesheet" href="css/jquery-ui-git.css">
+	
+    <title>Material Properties</title>
 
   </head>
-  <body id="page-top" class="index">
+  <body>
 
-  <div id="search_bar"></div>
-
-
-
-    <div id="graph"></div>
+	<div class="center"><div id="search_bar"></div></div>
+	
+	<div  id="mainContainer" class="properties_list"></div>
 
 
-  </body>
+
+<!-- 		<div id="mainContainer">
+						<div class="wrapBoxContent">
+				<div class="button cssCollapse-target">Toggle Button</div>
+
+				<div class="cssCollapse-hiddenContent">
+					<div class="innerText">
+						<div id="graph"></div>
+					</div>
+				</div>
+			</div>
+		</div> -->
+
+
+
+
+
   <script language="JavaScript">
+
+  $(document).ready(function() {
+    $( "> div", "#properties_listDispos" ).draggable({
+        helper: "clone",
+        revert: "invalid",
+        cursor: "move",
+        handle: "h3",
+        connectToSortable: ".properties_list"
+    });
+    
+    $( ".properties_list" ).accordion({
+        header: "> div > h3",
+        collapsible: true,
+        active: false,
+        autoHeight: true,
+        autoActivate: true
+
+    });
+    
+    $( ".properties_list" ).sortable({
+        axis: "y",
+        handle: "h3",
+        items: "div",
+        receive: function(event, ui) {
+            $(ui.item).removeClass();
+            $(ui.item).removeAttr("style");
+            $( ".properties_list" ).accordion("add", "<div>" + ui.item.hmtl() + "</div>");
+        }
+    });
+
+    $( ".properties_list" ).accordion({
+		  activate: function( event, ui ) {
+		  	var active = $( ".properties_list" ).accordion( "option", "active" );
+		  	var text = $("#mainContainer h3").eq(active).html();
+		  	symbol = text.split(' - ')[1].split(' = ')[0]
+		  				 .replace('<b>', '').replace('</sub>', '').replace('<sub>', '_')
+		  	// alert(symbol);
+		  	
+			// find property
+			property = getObjects(current_material['properties'], 'symbol', symbol)[0];
+		  	// alert(symbol + JSON.stringify(property));
+		    draw();
+  		}
+	});
+
+});
+
+
 
       //Variable to hold autocomplete options
       var keys;
-      var property = "bulk_bandgap";
+      var biblio;
+      var current_material;
+      var property;
+      var selected_graph;
 
       d3.json("data/properties.json",function (json) {
           keys=json;
           start();
       });
 
+      $.get('data/material_properties.bib', function(data) {
+		   biblio = bibtexParse.toJSON(data);
+      
+		}, 'text');
       // Sizing - Change here to make it dynamic
 
       var width = 960;
@@ -44,7 +126,10 @@
 
       //Call back for when user selects an option
       function onSelect(material) {
-        draw(material[property]);
+      	current_material = material
+      	list(material);
+        // draw(material);
+        // $('.properties_list').accordion({active:'false'});
       }
 
       //Setup and render the autocomplete
@@ -52,11 +137,23 @@
           var mc = autocomplete(document.getElementById('search_bar'))
                   .keys(keys)
                   .dataField("material")
-                  .placeHolder("Search Material - Start typing here")
+                  .placeHolder("Search for a Material")
                   .onSelected(onSelect)
                   .render();
       }
 
   </script>
+
+  <script type="text/javascript" src="js/autocomplete.js"></script>
+  <script type="text/javascript" src="js/jquery-ui.min.js"></script>
+  <script type="text/javascript" src="js/bibtexParse.js"></script>
   <script src="d3/property-plot.js"></script>
+
+  </body>
 </html>  
+
+<!-- http://designshack.net/tutorialexamples/html5-autocomplete-suggestions/ -->
+<!-- http://www.jqueryscript.net/accordion/Lightweight-jQuery-Accordion-Toggle-Control-Plugin-rjAccordion.html -->
+
+<!-- http://jsfiddle.net/4eMXy/ -->
+<!-- http://codepen.io/stefanjudis/pen/gkHwJ -->

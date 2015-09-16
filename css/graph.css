@@ -1,22 +1,12 @@
-* {
-  margin: 0;
-  padding: 0;
-}
 
-body {
-  min-height: 100%;
-  background-color: #fff;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  font-smoothing: antialiased; 
-  font-family: Helvetica, arial, freesans, clean, sans-serif;
-}
 
-#graph {
-  position: absolute;
-  top: 50%;
-  right: 50%;
-  margin: -270px -480px 0 0; 
-  width: 960px;
-  height: 540px;
+
+
+.graph {
+  /*display: block;*/
+/*  top: 50%;
+  right: 50%;*/
+  margin: 20px; 
+  /*width: 960px;*/
+  height: 50%;
 }
