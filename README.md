@@ -1,5 +1,3 @@
-# Material Properties Collaborative Database
+### Material Properties Collaborative Database
 
-This is an interactive database that is currently living at:
-
-[](https://francois-thierry.github.io/material-properties/)
+This is an interactive database on a [github page](https://francois-thierry.github.io/material-properties/).
