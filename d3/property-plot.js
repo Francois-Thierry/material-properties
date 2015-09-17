@@ -33,7 +33,7 @@ function list(material){
     // $('.button').cssCollapse();
     var new_id = "graph"+property["symbol"]
     // alert(new_id);
-    var newDiv = '<div><h3>'+property['name']+' - <b>'+symbol+' = '+mean.toString()+' \xB1 '+std.toString()+' '+unit+'</b></h3><div id="'+new_id+'" class="graph"><svg></svg></div></div>';
+    var newDiv = '<div><h3>'+property['name']+' - <b>'+symbol+' = '+mean.toString()+' \xB1 '+std.toString()+' '+unit+'</b></h3><span id="'+new_id+'" class="graph"><p id="'+new_id+'bibitem" class="bibentry"></p></span></div>';
     $('.properties_list').append(newDiv)
     // $('.properties_list').accordion({active:'false'});
   // draw(index);
@@ -44,6 +44,11 @@ function list(material){
 }
 
 function draw(){
+
+      // Create SVG figure
+
+var xAxisLabel = property["name"]+" ("+property["unit"].replace(/_/i, "")+")";
+var yAxisLabel = "Year of Publication";
 
 selected_graph = "#graph"+property["symbol"]
 // alert(JSON.stringify(property["data"]))
@@ -81,7 +86,7 @@ var figure = d3.select(selected_graph)
   .attr("height", '100%')
   .attr("viewBox", "0 0 960 500")
   .attr("perserveAspectRatio", "xMinYMid")
-  .style("shape-rendering", "geometricPrecision")                                               
+  .style("shape-rendering", "geometricPrecision")                                         
 
 
 // Define axes
@@ -114,7 +119,7 @@ figure.append("g")
 
 d3.selectAll(".xaxis text, .yaxis text")
   .attr("fill", "#999")
-  .style("font-size", "12px");
+  .style("font-size", "16px");
   
 // Style axes lines  
 
@@ -141,7 +146,7 @@ figure.append("text")
 // Style axes labels  
 figure.selectAll(".axis-label")
   .attr("text-anchor", "middle")
-  .style("font-size", "12px")
+  .style("font-size", "20px")
   .attr("fill", "#555");
 
 // get the mean value and standard deviation for the property
@@ -161,14 +166,6 @@ std = Math.round(std*1000)/1000
 
 // source tooltip
 
-figure.append("text")
-    .attr("class", "tooltip")
-    .attr("text-anchor", "middle")
-    .attr("transform", "translate("+ (width / 2) +","+ padding / 2 +")")
-    .style("font-size", "18px")
-    .attr("fill", "#555")
-    // .style("font-weight", "bold")
-    .text(""); 
 
 //                                                                     PLOT DATA
 //------------------------------------------------------------------------------
@@ -220,12 +217,48 @@ figure.selectAll("circle")
   .attr("stroke", "#16873c")
   .style("stroke-width", 2)
   .attr("fill", "#1db34f")
-  .on("click", function(d) { 
-    // find property
-    citation = getObjects(biblio, 'citationKey', d.ref)[0];
-    figure.select(".tooltip").text(function() { return JSON.stringify(citation); });
-
+  .on("mouseover", function(d){
+        this.style.cursor='pointer';
   })
+  .on("click", function(d) {
+
+    figure.selectAll("circle").attr("stroke", "#16873c").attr("fill", "#1db34f").attr("r", "8");
+    d3.select(this).attr("stroke", "blue").attr("fill", "#007FFF").attr("r", "10");
+
+    // find property
+    // citation = getObjects(biblio, 'citationKey', d.ref)[0]["entryTags"];
+    // var bibentry = citation["author"]+"<br/><a target='_blank' href='https://dx.doi.org/"+citation["doi"]+"' ><i>"+citation["title"]+"</i></a><br/>"+citation["journal"]+", "+citation["year"]
+    // // alert(bibentry);
+
+    citation = getObjects(biblio, 'citationKey', d.ref)[0]["entryTags"];
+    var bibentry = citation["author"]+"<br/><a target='_blank' href='https://dx.doi.org/"+citation["doi"]+"' style='text-decoration:none'><i>"+citation["title"]+"</i></a><br/>"+citation["journal"]+", "+citation["year"]
+    // alert(bibentry);
+    // $(selected_graph+"bibitem").html('<p>'+bibentry+'</p>');
+    $(selected_graph+"bibitem").html(bibentry);
+    // figure.select(".tooltip").text(function() { return bibentry });
+// $(selected_graph+"bibitem").innerHTML = bibentry;
+  })
+
+figure.attr("transform", "translate("+ 0 +","+ -padding/1.5 +")")
+// $(selected_graph+"bibitem").attr("transform", "translate("+ (width / 2) +","+ (height+padding/2) +")")
+
+// figure.append("text")
+//     .attr("class", "tooltip")
+//     .attr("text-anchor", "middle")
+//     .attr("transform", "translate("+ (width / 2) +","+ (height+padding/2) +")")
+//     .style("font-size", "18px")
+//     .attr("fill", "#555")
+//     // .style("font-weight", "bold")
+//     .text("");
+
+// figure.append("div")
+//     .classed("bibentry")
+//     .attr("text-anchor", "middle")
+//     .attr("transform", "translate("+ (width / 2) +","+ (height+padding/2) +")")
+//     .style("font-size", "15px")
+//     // .attr("fill", "#555")
+//     // .style("font-weight", "bold")
+//     .html("<p>Hello</p>"); 
 
 //------------------------------------------------------------------------------
 

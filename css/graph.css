@@ -3,10 +3,27 @@
 
 
 .graph {
-  /*display: block;*/
+  display: block;
+  position: relative;
 /*  top: 50%;
   right: 50%;*/
-  margin: 20px; 
+  margin: 20px;
+  /*margin-bottom: 0;*/
+  /*margin-top: -20px;*/
   /*width: 960px;*/
   height: 50%;
+}
+
+.bibentry {
+  position: absolute;
+  display: inline-block;
+/*  top: 50%;
+  right: 50%;*/
+  margin: 0; 
+  /*width: 960px;*/
+  /*height: 50%;*/
+  font-size: 15px;
+  /*text-decoration: none;*/
+  bottom: 30px;
+  z-index: 1000;
 }

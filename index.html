@@ -50,13 +50,13 @@
   <script language="JavaScript">
 
   $(document).ready(function() {
-    $( "> div", "#properties_listDispos" ).draggable({
-        helper: "clone",
-        revert: "invalid",
-        cursor: "move",
-        handle: "h3",
-        connectToSortable: ".properties_list"
-    });
+    // $( "> div", "#properties_listDispos" ).draggable({
+    //     helper: "clone",
+    //     revert: "invalid",
+    //     cursor: "move",
+    //     handle: "h3",
+    //     connectToSortable: ".properties_list"
+    // });
     
     $( ".properties_list" ).accordion({
         header: "> div > h3",
@@ -67,16 +67,16 @@
 
     });
     
-    $( ".properties_list" ).sortable({
-        axis: "y",
-        handle: "h3",
-        items: "div",
-        receive: function(event, ui) {
-            $(ui.item).removeClass();
-            $(ui.item).removeAttr("style");
-            $( ".properties_list" ).accordion("add", "<div>" + ui.item.hmtl() + "</div>");
-        }
-    });
+    // $( ".properties_list" ).sortable({
+    //     axis: "y",
+    //     handle: "h3",
+    //     items: "div",
+    //     receive: function(event, ui) {
+    //         $(ui.item).removeClass();
+    //         $(ui.item).removeAttr("style");
+    //         $( ".properties_list" ).accordion("add", "<div>" + ui.item.hmtl() + "</div>");
+    //     }
+    // });
 
     $( ".properties_list" ).accordion({
 		  activate: function( event, ui ) {
@@ -85,7 +85,7 @@
 		  	symbol = text.split(' - ')[1].split(' = ')[0]
 		  				 .replace('<b>', '').replace('</sub>', '').replace('<sub>', '_')
 		  	// alert(symbol);
-		  	
+		  	$(selected_graph+"bibitem").html("");
 			// find property
 			property = getObjects(current_material['properties'], 'symbol', symbol)[0];
 		  	// alert(symbol + JSON.stringify(property));
@@ -118,11 +118,6 @@
       var width = 960;
       var height = 540;
       var padding = 120;
-
-      // Create SVG figure
-
-      var xAxisLabel = "Bulk Bandgap (eV)";
-      var yAxisLabel = "Year of Publication";
 
       //Call back for when user selects an option
       function onSelect(material) {
