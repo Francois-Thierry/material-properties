@@ -318,7 +318,7 @@
     "properties": [
       {
         "name": "Bulk Bandgap",
-        "property": "E_g",
+        "symbol": "E_g",
         "unit": "eV",
         "data": [
           {
@@ -330,7 +330,7 @@
       },
       {
         "name": "Electron Effective Mass",
-        "property": "m_e",
+        "symbol": "m_e",
         "unit": "m_0",
         "data": [
           {
@@ -342,7 +342,7 @@
       },
       {
         "name": "Heavy-Hole Effective Mass",
-        "property": "m_hh",
+        "symbol": "m_hh",
         "unit": "m_0",
         "data": [
           {
@@ -354,7 +354,7 @@
       },
       {
         "name": "Electronic Affinity",
-        "property": "chi_A",
+        "symbol": "chi_A",
         "unit": "eV",
         "data": [
           {
@@ -366,7 +366,7 @@
       },
       {
         "name": "Static Dielectric Permittivity",
-        "property": "eps_s",
+        "symbol": "eps_s",
         "unit": "eps_0",
         "data": [
           {
@@ -385,7 +385,7 @@
     "properties": [
       {
         "name": "Bulk Bandgap",
-        "property": "E_g",
+        "symbol": "E_g",
         "unit": "eV",
         "data": [
           {
@@ -397,7 +397,7 @@
       },
       {
         "name": "Electron Effective Mass",
-        "property": "m_e",
+        "symbol": "m_e",
         "unit": "m_0",
         "data": [
           {
@@ -408,7 +408,7 @@
         ]
       },
       {
-        "property": "m_hh",
+        "symbol": "m_hh",
         "name": "Heavy-Hole Effective Mass",
         "unit": "m_0",
         "data": [
@@ -421,7 +421,7 @@
       },
       {
         "name": "Electronic Affinity",
-        "property": "chi_A",
+        "symbol": "chi_A",
         "unit": "eV",
         "data": [
           {
@@ -729,7 +729,7 @@
     "properties": [
       {
         "name": "Bulk Bandgap",
-        "property": "E_g",
+        "symbol": "E_g",
         "unit": "eV",
         "data": [
           {
@@ -746,7 +746,7 @@
       },
       {
         "name": "Electron Effective Mass",
-        "property": "m_e",
+        "symbol": "m_e",
         "unit": "m_0",
         "data": [
           {
@@ -763,7 +763,7 @@
       },
       {
         "name": "Heavy-Hole Effective Mass",
-        "property": "m_h",
+        "symbol": "m_h",
         "unit": "m_0",
         "data": [
           {
@@ -775,7 +775,7 @@
       },
       {
         "name": "Electronic Affinity",
-        "property": "chi_A",
+        "symbol": "chi_A",
         "unit": "eV",
         "data": [
           {
@@ -792,7 +792,7 @@
       },
       {
         "name": "Static Dielectric Permittivity",
-        "property": "eps_s",
+        "symbol": "eps_s",
         "unit": "eps_0",
         "data": [
           {
@@ -804,7 +804,7 @@
       },
       {
         "name": "Infinite Frequency Dielectric Permittivity",
-        "property": "eps_inf",
+        "symbol": "eps_inf",
         "unit": "eps_0",
         "data": [
           {
@@ -823,7 +823,7 @@
     "properties": [
       {
         "name": "Bulk Bandgap",
-        "property": "E_g",
+        "symbol": "E_g",
         "unit": "eV",
         "data": [
           {
@@ -840,7 +840,7 @@
       },
       {
         "name": "Electron Effective Mass",
-        "property": "m_e",
+        "symbol": "m_e",
         "unit": "m_0",
         "data": [
           {
@@ -852,7 +852,7 @@
       },
       {
         "name": "Heavy-Hole Effective Mass",
-        "property": "m_hh",
+        "symbol": "m_hh",
         "unit": "m_0",
         "data": [
           {
@@ -864,7 +864,7 @@
       },
       {
         "name": "Electronic Affinity",
-        "property": "chi_A",
+        "symbol": "chi_A",
         "unit": "eV",
         "data": [
           {
@@ -883,7 +883,7 @@
     "properties": [
       {
         "name": "Bulk Bandgap",
-        "property": "E_g",
+        "symbol": "E_g",
         "unit": "eV",
         "data": [
           {
@@ -899,7 +899,7 @@
         ]
       },
       {
-        "property": "m_e",
+        "symbol": "m_e",
         "name": "Electron Effective Mass",
         "unit": "m_0",
         "data": [
@@ -917,7 +917,7 @@
       },
       {
         "name": "Heavy-Hole Effective Mass",
-        "property": "m_hh",
+        "symbol": "m_hh",
         "unit": "m_0",
         "data": [
           {
@@ -934,7 +934,7 @@
       },
       {
         "name": "Electronic Affinity",
-        "property": "chi_A",
+        "symbol": "chi_A",
         "unit": "eV",
         "data": [
           {
@@ -951,7 +951,7 @@
       },
       {
         "name": "Static Dielectric Permittivity",
-        "property": "eps_s",
+        "symbol": "eps_s",
         "unit": "eps_0",
         "data": [
           {
@@ -963,7 +963,7 @@
       },
       {
         "name": "Infinite Frequency Dielectric Permittivity",
-        "property": "eps_inf",
+        "symbol": "eps_inf",
         "unit": "eps_0",
         "data": [
           {
@@ -982,7 +982,7 @@
     "properties": [
       {
         "name": "Bulk Bandgap",
-        "property": "E_g",
+        "symbol": "E_g",
         "unit": "eV",
         "data": [
           {
@@ -994,7 +994,7 @@
       },
       {
         "name": "Electron Effective Mass",
-        "property": "m_e",
+        "symbol": "m_e",
         "unit": "m_0",
         "data": [
           {
@@ -1006,7 +1006,7 @@
       },
       {
         "name": "Heavy-Hole Effective Mass",
-        "property": "m_hh",
+        "symbol": "m_hh",
         "unit": "m_0",
         "data": [
           {
@@ -1018,7 +1018,7 @@
       },
       {
         "name": "Electronic Affinity",
-        "property": "chi_A",
+        "symbol": "chi_A",
         "unit": "eV",
         "data": [
           {
@@ -1030,7 +1030,7 @@
       },
       {
         "name": "Static Dielectric Permittivity",
-        "property": "eps_s",
+        "symbol": "eps_s",
         "unit": "eps_0",
         "data": [
           {
@@ -1042,7 +1042,7 @@
       },
       {
         "name": "Infinite Frequency Dielectric Permittivity",
-        "property": "eps_inf",
+        "symbol": "eps_inf",
         "unit": "eps_0",
         "data": [
           {
@@ -1061,7 +1061,7 @@
     "properties": [
       {
         "name": "Bulk Bandgap",
-        "property": "E_g",
+        "symbol": "E_g",
         "unit": "eV",
         "data": [
           {
@@ -1073,7 +1073,7 @@
       },
       {
         "name": "Electron Effective Mass",
-        "property": "m_e",
+        "symbol": "m_e",
         "unit": "m_0",
         "data": [
           {
@@ -1085,7 +1085,7 @@
       },
       {
         "name": "Heavy-Hole Effective Mass",
-        "property": "m_hh",
+        "symbol": "m_hh",
         "unit": "m_0",
         "data": [
           {
@@ -1097,7 +1097,7 @@
       },
       {
         "name": "Electronic Affinity",
-        "property": "chi_A",
+        "symbol": "chi_A",
         "unit": "eV",
         "data": [
           {
