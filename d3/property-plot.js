@@ -51,23 +51,17 @@ selected_graph = "#graph"+property["symbol"]
 //                                                                   DATA EXTENT
 //------------------------------------------------------------------------------
 
+var years = property["data"].map(function(d) { return parseYear(d.ref.substr(-4)); });
+var values = property["data"].map(function(d) { return d.value; });
 
-// Scales according to the data
-
-var xmin = d3.min(property["data"], function(d) { return parseYear(d.year.toString()); })
-var xmax = d3.max(property["data"], function(d) { return parseYear(d.year.toString()); })
-var ymin = d3.min(property["data"], function(d) { return d.value; })
-var ymax = d3.max(property["data"], function(d) { return d.value; })
-var yrange = ymax - ymin
-
-
+var yrange = d3.max(values) - d3.min(values)
 
 var xScale = d3.time.scale()
-  .domain([xmin, xmax])
+  .domain([d3.min(years), d3.max(years)])
   .rangeRound([padding, width - padding]);
 
 var yScale = d3.scale.linear()
-  .domain([ymin-0.1*yrange, ymax+0.1*yrange])
+  .domain([d3.min(values)-0.1*yrange, d3.max(values)+0.1*yrange])
   .rangeRound([height - padding, padding]);      
 
 //                                                                        FIGURE
@@ -182,15 +176,15 @@ figure.append("text")
 // create Lines
 
 var mean_line = d3.svg.line()
-  .x(function(d) { return xScale(parseYear(d.year.toString())); })
+  .x(function(d) { return xScale(parseYear(d.ref.substr(-4))); })
   .y(function(d) { return yScale(mean); });
 
 // var std_plus_line = d3.svg.line()
-//   .x(function(d) { return xScale(parseYear(d.year.toString())); })
+//   .x(function(d) { return xScale(parseYear(d.ref.substr(-4))); })
 //   .y(yScale(mean+std));
 
 // var std_minus_line = d3.svg.line()
-//   .x(function(d) { return xScale(parseYear(d.year.toString())); })
+//   .x(function(d) { return xScale(parseYear(d.ref.substr(-4))); })
 //   .y(function(d) { return yScale(mean-std); });
 
 // mean value line
@@ -220,7 +214,7 @@ figure.selectAll("circle")
   .data(property["data"])
   .enter()
   .append("circle")
-  .attr("cx", function(d) { return xScale(parseYear(d.year.toString())); })
+  .attr("cx", function(d) { return xScale(parseYear(d.ref.substr(-4))); })
   .attr("cy", function(d) { return yScale(d.value); })
   .attr("r", "8")
   .attr("stroke", "#16873c")

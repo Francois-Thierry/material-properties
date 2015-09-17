@@ -11,13 +11,11 @@
         "data": [
           {
             "value": 2.53,
-            "ref": "PellegriniJAP2005",
-            "year": 2005
+            "ref": "PellegriniJAP2005"
           },
           {
             "value": 2.579,
-            "ref": "YaoOME2013",
-            "year": 2013
+            "ref": "YaoOME2013"
           }
         ]
       },
@@ -28,18 +26,15 @@
         "data": [
           {
             "value": 0.18,
-            "ref": "PellegriniJAP2005",
-            "year": 2005
+            "ref": "PellegriniJAP2005"
           },
           {
             "value": 0.2,
-            "ref": "TrindadeCM2001",
-            "year": 2001
+            "ref": "TrindadeCM2001"
           },
           {
             "value": 0.205,
-            "ref": "YaoOME2013",
-            "year": 2013
+            "ref": "YaoOME2013"
           }
         ]
       },
@@ -50,13 +45,11 @@
         "data": [
           {
             "value": 0.53,
-            "ref": "PellegriniJAP2005",
-            "year": 2005
+            "ref": "PellegriniJAP2005"
           },
           {
             "value": 0.7,
-            "ref": "TrindadeCM2001",
-            "year": 2001
+            "ref": "TrindadeCM2001"
           }
         ]
       },
@@ -67,13 +60,11 @@
         "data": [
           {
             "value": -4.3,
-            "ref": "PellegriniJAP2005",
-            "year": 2005
+            "ref": "PellegriniJAP2005"
           },
           {
             "value": -4.79,
-            "ref": "YaoOME2013",
-            "year": 2013
+            "ref": "YaoOME2013"
           }
         ]
       },
@@ -84,13 +75,11 @@
         "data": [
           {
             "value": 8.28,
-            "ref": "PellegriniJAP2005",
-            "year": 2005
+            "ref": "PellegriniJAP2005"
           },
           {
             "value": 9.8,
-            "ref": "YaoOME2013",
-            "year": 2013
+            "ref": "YaoOME2013"
           }
         ]
       },
@@ -101,8 +90,7 @@
         "data": [
           {
             "value": 5.23,
-            "ref": "PellegriniJAP2005",
-            "year": 2005
+            "ref": "PellegriniJAP2005"
           }
         ]
       }
@@ -120,18 +108,15 @@
         "data": [
           {
             "value": 1.75,
-            "ref": "PellegriniJAP2005",
-            "year": 2005
+            "ref": "PellegriniJAP2005"
           },
           {
             "value": 1.74,
-            "ref": "TrindadeCM2001",
-            "year": 2001
+            "ref": "TrindadeCM2001"
           },
           {
             "value": 1.799,
-            "ref": "YaoOME2013",
-            "year": 2013
+            "ref": "YaoOME2013"
           }
         ]
       },
@@ -142,30 +127,26 @@
         "data": [
           {
             "value": 0.13,
-            "ref": "PellegriniJAP2005",
-            "year": 2005
+            "ref": "PellegriniJAP2005"
           }
         ]
       },
       {
-        "name": "Hole Effective Mass",
-        "symbol": "m_h",
+        "name": "Heavy-Hole Effective Mass",
+        "symbol": "m_hh",
         "unit": "m_0",
         "data": [
           {
             "value": 0.3,
-            "ref": "PellegriniJAP2005",
-            "year": 2005
+            "ref": "PellegriniJAP2005"
           },
           {
             "value": 0.4,
-            "ref": "TrindadeCM2001",
-            "year": 2001
+            "ref": "TrindadeCM2001"
           },
           {
             "value": 0.45,
-            "ref": "YaoOME2013",
-            "year": 2013
+            "ref": "YaoOME2013"
           }
         ]
       },
@@ -176,13 +157,11 @@
         "data": [
           {
             "value": -3.93,
-            "ref": "PellegriniJAP2005",
-            "year": 2005
+            "ref": "PellegriniJAP2005"
           },
           {
             "value": -4.95,
-            "ref": "YaoOME2013",
-            "year": 2013
+            "ref": "YaoOME2013"
           }
         ]
       },
@@ -193,13 +172,11 @@
         "data": [
           {
             "value": 9.56,
-            "ref": "PellegriniJAP2005",
-            "year": 2005
+            "ref": "PellegriniJAP2005"
           },
           {
             "value": 9.6,
-            "ref": "YaoOME2013",
-            "year": 2013
+            "ref": "YaoOME2013"
           }
         ]
       },
@@ -210,8 +187,7 @@
         "data": [
           {
             "value": 6.23,
-            "ref": "PellegriniJAP2005",
-            "year": 2005
+            "ref": "PellegriniJAP2005"
           }
         ]
       }
@@ -229,13 +205,11 @@
         "data": [
           {
             "value": 1.6,
-            "ref": "PellegriniJAP2005",
-            "year": 2005
+            "ref": "PellegriniJAP2005"
           },
           {
             "value": 1.5,
-            "ref": "TrindadeCM2001",
-            "year": 2001
+            "ref": "TrindadeCM2001"
           }
         ]
       },
@@ -246,8 +220,7 @@
         "data": [
           {
             "value": 0.11,
-            "ref": "PellegriniJAP2005",
-            "year": 2005
+            "ref": "PellegriniJAP2005"
           }
         ]
       },
@@ -258,13 +231,11 @@
         "data": [
           {
             "ref": "PellegriniJAP2005",
-            "value": 0.35,
-            "year": 2005
+            "value": 0.35
           },
           {
             "ref": "YaoOME2013",
-            "value": 0.69,
-            "year": 2013
+            "value": 0.69
           }
         ]
       },
@@ -275,8 +246,7 @@
         "data": [
           {
             "value": -4.18,
-            "ref": "YaoOME2013",
-            "year": 2013
+            "ref": "YaoOME2013"
           }
         ]
       },
@@ -287,13 +257,11 @@
         "data": [
           {
             "value": 10.3,
-            "ref": "PellegriniJAP2005",
-            "year": 2005
+            "ref": "PellegriniJAP2005"
           },
           {
             "value": 10.4,
-            "ref": "YaoOME2013",
-            "year": 2013
+            "ref": "YaoOME2013"
           }
         ]
       },
@@ -304,8 +272,7 @@
         "data": [
           {
             "value": 7.1,
-            "ref": "PellegriniJAP2005",
-            "year": 2005
+            "ref": "PellegriniJAP2005"
           }
         ]
       }
@@ -323,8 +290,7 @@
         "data": [
           {
             "value": 1.5,
-            "ref": "LiJMC2010",
-            "year": 2010
+            "ref": "LiJMC2010"
           }
         ]
       },
@@ -335,8 +301,7 @@
         "data": [
           {
             "value": 0.16,
-            "ref": "LiJMC2010",
-            "year": 2010
+            "ref": "LiJMC2010"
           }
         ]
       },
@@ -347,8 +312,7 @@
         "data": [
           {
             "value": 1.3,
-            "ref": "LiJMC2010",
-            "year": 2010
+            "ref": "LiJMC2010"
           }
         ]
       },
@@ -359,8 +323,7 @@
         "data": [
           {
             "value": -4.5,
-            "ref": "ShangTSF2014",
-            "year": 2014
+            "ref": "ShangTSF2014"
           }
         ]
       },
@@ -371,8 +334,7 @@
         "data": [
           {
             "value": 11,
-            "ref": "LiJMC2010",
-            "year": 2010
+            "ref": "LiJMC2010"
           }
         ]
       }
@@ -390,8 +352,7 @@
         "data": [
           {
             "value": 1.01,
-            "ref": "NeumannSC1986",
-            "year": 1986
+            "ref": "NeumannSC1986"
           }
         ]
       },
@@ -402,8 +363,7 @@
         "data": [
           {
             "value": 0.09,
-            "ref": "NeumannSC1986",
-            "year": 1986
+            "ref": "NeumannSC1986"
           }
         ]
       },
@@ -414,8 +374,7 @@
         "data": [
           {
             "value": 0.71,
-            "ref": "NeumannSC1986",
-            "year": 1986
+            "ref": "NeumannSC1986"
           }
         ]
       },
@@ -426,8 +385,7 @@
         "data": [
           {
             "value": -4.21,
-            "ref": "AlKuhaimiSEMSC1998",
-            "year": 1998
+            "ref": "AlKuhaimiSEMSC1998"
           }
         ]
       }
@@ -445,13 +403,11 @@
         "data": [
           {
             "value": 1.42,
-            "ref": "MaOL2014",
-            "year": 2014
+            "ref": "MaOL2014"
           },
           {
             "value": 1.43,
-            "ref": "TrindadeCM2001",
-            "year": 2001
+            "ref": "TrindadeCM2001"
           }
         ]
       },
@@ -462,13 +418,11 @@
         "data": [
           {
             "value": 0.07,
-            "ref": "TrindadeCM2001",
-            "year": 2001
+            "ref": "TrindadeCM2001"
           },
           {
             "value": 0.067,
-            "ref": "MaOL2014",
-            "year": 2014
+            "ref": "MaOL2014"
           }
         ]
       },
@@ -479,13 +433,11 @@
         "data": [
           {
             "value": 0.5,
-            "ref": "TrindadeCM2001",
-            "year": 2001
+            "ref": "TrindadeCM2001"
           },
           {
             "value": 0.48,
-            "ref": "MaOL2014",
-            "year": 2014
+            "ref": "MaOL2014"
           }
         ]
       },
@@ -496,13 +448,11 @@
         "data": [
           {
             "value": -4.06,
-            "ref": "MaOL2014",
-            "year": 2014
+            "ref": "MaOL2014"
           },
           {
             "value": -5.13,
-            "ref": "LaarJVCT1977",
-            "year": 1977
+            "ref": "LaarJVCT1977"
           }
         ]
       }
@@ -520,18 +470,15 @@
         "data": [
           {
             "value": 2.272,
-            "ref": "Taylor1998133",
-            "year": 1998
+            "ref": "Taylor1998133"
           },
           {
             "value": 2.25,
-            "ref": "TrindadeCM2001",
-            "year": 2001
+            "ref": "TrindadeCM2001"
           },
           {
             "value": 2.26,
-            "ref": "LaarJVCT1977",
-            "year": 1977
+            "ref": "LaarJVCT1977"
           }
         ]
       },
@@ -542,8 +489,7 @@
         "data": [
           {
             "value": 0.13,
-            "ref": "TrindadeCM2001",
-            "year": 2001
+            "ref": "TrindadeCM2001"
           }
         ]
       },
@@ -554,8 +500,7 @@
         "data": [
           {
             "value": 0.67,
-            "ref": "TrindadeCM2001",
-            "year": 2001
+            "ref": "TrindadeCM2001"
           }
         ]
       },
@@ -566,13 +511,11 @@
         "data": [
           {
             "value": -3.74,
-            "ref": "Taylor1998133",
-            "year": 1998
+            "ref": "Taylor1998133"
           },
           {
             "value": -3.75,
-            "ref": "LaarJVCT1977",
-            "year": 1977
+            "ref": "LaarJVCT1977"
           }
         ]
       }
@@ -590,13 +533,11 @@
         "data": [
           {
             "value": 0.69,
-            "ref": "TrindadeCM2001",
-            "year": 2001
+            "ref": "TrindadeCM2001"
           },
           {
             "value": 0.7,
-            "ref": "LaarJVCT1977",
-            "year": 1977
+            "ref": "LaarJVCT1977"
           }
         ]
       },
@@ -607,8 +548,7 @@
         "data": [
           {
             "value": 0.045,
-            "ref": "TrindadeCM2001",
-            "year": 2001
+            "ref": "TrindadeCM2001"
           }
         ]
       },
@@ -619,8 +559,7 @@
         "data": [
           {
             "value": 0.39,
-            "ref": "TrindadeCM2001",
-            "year": 2001
+            "ref": "TrindadeCM2001"
           }
         ]
       },
@@ -631,8 +570,7 @@
         "data": [
           {
             "value": -4.21,
-            "ref": "LaarJVCT1977",
-            "year": 1977
+            "ref": "LaarJVCT1977"
           }
         ]
       }
@@ -650,8 +588,7 @@
         "data": [
           {
             "value": 0.36,
-            "ref": "PellegriniJAP2005",
-            "year": 2005
+            "ref": "PellegriniJAP2005"
           }
         ]
       },
@@ -662,8 +599,7 @@
         "data": [
           {
             "value": 0.028,
-            "ref": "PellegriniJAP2005",
-            "year": 2005
+            "ref": "PellegriniJAP2005"
           }
         ]
       },
@@ -674,8 +610,7 @@
         "data": [
           {
             "value": 0.33,
-            "ref": "PellegriniJAP2005",
-            "year": 2005
+            "ref": "PellegriniJAP2005"
           }
         ]
       },
@@ -686,13 +621,11 @@
         "data": [
           {
             "value": -4.9,
-            "ref": "PellegriniJAP2005",
-            "year": 2005
+            "ref": "PellegriniJAP2005"
           },
           {
             "value": -5.06,
-            "ref": "LaarJVCT1977",
-            "year": 1977
+            "ref": "LaarJVCT1977"
           }
         ]
       },
@@ -703,8 +636,7 @@
         "data": [
           {
             "value": 15.2,
-            "ref": "PellegriniJAP2005",
-            "year": 2005
+            "ref": "PellegriniJAP2005"
           }
         ]
       },
@@ -715,8 +647,7 @@
         "data": [
           {
             "value": 12.3,
-            "ref": "PellegriniJAP2005",
-            "year": 2005
+            "ref": "PellegriniJAP2005"
           }
         ]
       }
@@ -734,13 +665,11 @@
         "data": [
           {
             "value": 1.35,
-            "ref": "PellegriniJAP2005",
-            "year": 2005
+            "ref": "PellegriniJAP2005"
           },
           {
             "value": 1.28,
-            "ref": "TrindadeCM2001",
-            "year": 2001
+            "ref": "TrindadeCM2001"
           }
         ]
       },
@@ -751,25 +680,22 @@
         "data": [
           {
             "value": 0.065,
-            "ref": "PellegriniJAP2005",
-            "year": 2005
+            "ref": "PellegriniJAP2005"
           },
           {
             "value": 0.07,
-            "ref": "TrindadeCM2001",
-            "year": 2001
+            "ref": "TrindadeCM2001"
           }
         ]
       },
       {
         "name": "Heavy-Hole Effective Mass",
-        "symbol": "m_h",
+        "symbol": "m_hh",
         "unit": "m_0",
         "data": [
           {
             "value": 0.4,
-            "ref": "PellegriniJAP2005",
-            "year": 2005
+            "ref": "PellegriniJAP2005"
           }
         ]
       },
@@ -780,8 +706,7 @@
         "data": [
           {
             "value": -4.38,
-            "ref": "PellegriniJAP2005",
-            "year": 2005
+            "ref": "PellegriniJAP2005"
           },
           {
             "ref": "LaarJVCT1977",
@@ -797,8 +722,7 @@
         "data": [
           {
             "value": 15,
-            "ref": "PellegriniJAP2005",
-            "year": 2005
+            "ref": "PellegriniJAP2005"
           }
         ]
       },
@@ -809,8 +733,7 @@
         "data": [
           {
             "value": 10.6,
-            "ref": "PellegriniJAP2005",
-            "year": 2005
+            "ref": "PellegriniJAP2005"
           }
         ]
       }
@@ -828,13 +751,11 @@
         "data": [
           {
             "value": 0.17,
-            "ref": "TrindadeCM2001",
-            "year": 2001
+            "ref": "TrindadeCM2001"
           },
           {
             "value": 0.18,
-            "ref": "LaarJVCT1977",
-            "year": 1977
+            "ref": "LaarJVCT1977"
           }
         ]
       },
@@ -845,8 +766,7 @@
         "data": [
           {
             "value": 0.0133,
-            "ref": "TrindadeCM2001",
-            "year": 2001
+            "ref": "TrindadeCM2001"
           }
         ]
       },
@@ -857,8 +777,7 @@
         "data": [
           {
             "value": 0.18,
-            "ref": "TrindadeCM2001",
-            "year": 2001
+            "ref": "TrindadeCM2001"
           }
         ]
       },
@@ -869,8 +788,7 @@
         "data": [
           {
             "value": -4.72,
-            "ref": "LaarJVCT1977",
-            "year": 1977
+            "ref": "LaarJVCT1977"
           }
         ]
       }
@@ -888,13 +806,11 @@
         "data": [
           {
             "value": 0.41,
-            "ref": "PellegriniJAP2005",
-            "year": 2005
+            "ref": "PellegriniJAP2005"
           },
           {
             "value": 0.37,
-            "ref": "TrindadeCM2001",
-            "year": 2001
+            "ref": "TrindadeCM2001"
           }
         ]
       },
@@ -905,13 +821,11 @@
         "data": [
           {
             "value": 0.085,
-            "ref": "PellegriniJAP2005",
-            "year": 2005
+            "ref": "PellegriniJAP2005"
           },
           {
             "value": 0.1,
-            "ref": "TrindadeCM2001",
-            "year": 2001
+            "ref": "TrindadeCM2001"
           }
         ]
       },
@@ -922,13 +836,11 @@
         "data": [
           {
             "value": 0.085,
-            "ref": "PellegriniJAP2005",
-            "year": 2005
+            "ref": "PellegriniJAP2005"
           },
           {
             "value": 0.1,
-            "ref": "TrindadeCM2001",
-            "year": 2001
+            "ref": "TrindadeCM2001"
           }
         ]
       },
@@ -939,8 +851,7 @@
         "data": [
           {
             "value": -4.6,
-            "ref": "PellegriniJAP2005",
-            "year": 2005
+            "ref": "PellegriniJAP2005"
           },
           {
             "value": -5.5,
@@ -956,8 +867,7 @@
         "data": [
           {
             "value": 161,
-            "ref": "PellegriniJAP2005",
-            "year": 2005
+            "ref": "PellegriniJAP2005"
           }
         ]
       },
@@ -968,8 +878,7 @@
         "data": [
           {
             "value": 17.2,
-            "ref": "PellegriniJAP2005",
-            "year": 2005
+            "ref": "PellegriniJAP2005"
           }
         ]
       }
@@ -987,8 +896,7 @@
         "data": [
           {
             "value": 0.26,
-            "ref": "PellegriniJAP2005",
-            "year": 2005
+            "ref": "PellegriniJAP2005"
           }
         ]
       },
@@ -999,8 +907,7 @@
         "data": [
           {
             "value": 0.07,
-            "ref": "PellegriniJAP2005",
-            "year": 2005
+            "ref": "PellegriniJAP2005"
           }
         ]
       },
@@ -1011,8 +918,7 @@
         "data": [
           {
             "value": 0.06,
-            "ref": "PellegriniJAP2005",
-            "year": 2005
+            "ref": "PellegriniJAP2005"
           }
         ]
       },
@@ -1023,8 +929,7 @@
         "data": [
           {
             "value": -4.7,
-            "ref": "PellegriniJAP2005",
-            "year": 2005
+            "ref": "PellegriniJAP2005"
           }
         ]
       },
@@ -1035,8 +940,7 @@
         "data": [
           {
             "value": 227,
-            "ref": "PellegriniJAP2005",
-            "year": 2005
+            "ref": "PellegriniJAP2005"
           }
         ]
       },
@@ -1047,8 +951,7 @@
         "data": [
           {
             "value": 25,
-            "ref": "PellegriniJAP2005",
-            "year": 2005
+            "ref": "PellegriniJAP2005"
           }
         ]
       }
@@ -1066,8 +969,7 @@
         "data": [
           {
             "value": 0.29,
-            "ref": "TrindadeCM2001",
-            "year": 2001
+            "ref": "TrindadeCM2001"
           }
         ]
       },
@@ -1078,8 +980,7 @@
         "data": [
           {
             "value": 0.24,
-            "ref": "TrindadeCM2001",
-            "year": 2001
+            "ref": "TrindadeCM2001"
           }
         ]
       },
@@ -1090,8 +991,7 @@
         "data": [
           {
             "value": 0.3,
-            "ref": "TrindadeCM2001",
-            "year": 2001
+            "ref": "TrindadeCM2001"
           }
         ]
       },
@@ -1102,8 +1002,333 @@
         "data": [
           {
             "value": -4.6,
-            "ref": "SpicerPRB1965",
-            "year": 1965
+            "ref": "SpicerPRB1965"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "material": "SnS",
+    "name": "Tin Sulfide",
+    "type": "Semiconductor",
+    "properties": [
+      {
+        "name": "Bulk Bandgap",
+        "symbol": "E_g",
+        "unit": "eV",
+        "data": [
+          {
+            "value": 1.1,
+            "ref": "BurtonAPL2013"
+          }
+        ]
+      },
+      {
+        "name": "Electronic Affinity",
+        "symbol": "chi_A",
+        "unit": "eV",
+        "data": [
+          {
+            "value": -3.6,
+            "ref": "BurtonAPL2013"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Titanium Dioxyde",
+    "material": "TiO2",
+    "type": "Semiconductor",
+    "properties": [
+      {
+        "name": "Bulk Bandgap",
+        "symbol": "E_g",
+        "unit": "eV",
+        "data": [
+          {
+            "value": 3.039,
+            "ref": "BakJPCS2003"
+          }
+        ]
+      },
+      {
+        "name": "Electron Effective Mass",
+        "symbol": "m_e",
+        "unit": "m_0",
+        "data": [
+          {
+            "value": 30,
+            "ref": "YahiaPR1963"
+          }
+        ]
+      },
+      {
+        "symbol": "m_hh",
+        "name": "Heavy-Hole Effective Mass",
+        "unit": "m_0",
+        "data": [
+          {
+            "value": 1,
+            "ref": "YahiaPR1963"
+          }
+        ]
+      },
+      {
+        "name": "Electronic Affinity",
+        "symbol": "chi_A",
+        "unit": "eV",
+        "data": [
+          {
+            "value": -4.8,
+            "ref": "ScanlonNM2013"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "material": "ZnO",
+    "name": "Zinc Oxyde",
+    "type": "Semiconductor",
+    "properties": [
+      {
+        "name": "Bulk Bandgap",
+        "symbol": "E_g",
+        "unit": "eV",
+        "data": [
+          {
+            "value": 3.37,
+            "ref": "RamliCL2013"
+          }
+        ]
+      },
+      {
+        "name": "Electronic Affinity",
+        "symbol": "chi_A",
+        "unit": "eV",
+        "data": [
+          {
+            "value": -4.5,
+            "ref": "RamliCL2013"
+          }
+        ]
+      },
+      {
+        "name": "Static Dielectric Permittivity",
+        "symbol": "eps_s",
+        "unit": "eps_0",
+        "data": [
+          {
+            "value": 8.49,
+            "ref": "RamliCL2013"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "material": "ZnS",
+    "name": "Zinc Sulfide",
+    "type": "Semiconductor",
+    "properties": [
+      {
+        "name": "Bulk Bandgap",
+        "symbol": "E_g",
+        "unit": "eV",
+        "data": [
+          {
+            "value": 3.8,
+            "ref": "TrindadeCM2001"
+          },
+          {
+            "value": 3.68,
+            "ref": "RamliCL2013"
+          }
+        ]
+      },
+      {
+        "name": "Electron Effective Mass",
+        "symbol": "m_e",
+        "unit": "m_0",
+        "data": [
+          {
+            "value": 0.28,
+            "ref": "TrindadeCM2001"
+          }
+        ]
+      },
+      {
+        "name": "Heavy-Hole Effective Mass",
+        "symbol": "m_hh",
+        "unit": "m_0",
+        "data": [
+          {
+            "value": 0.5,
+            "ref": "TrindadeCM2001"
+          }
+        ]
+      },
+      {
+        "name": "Electronic Affinity",
+        "symbol": "chi_A",
+        "unit": "eV",
+        "data": [
+          {
+            "value": -3.9,
+            "ref": "RamliCL2013"
+          }
+        ]
+      },
+      {
+        "name": "Static Dielectric Permittivity",
+        "symbol": "eps_s",
+        "unit": "eps_0",
+        "data": [
+          {
+            "value": 8.3,
+            "ref": "RamliCL2013"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "material": "ZnSe",
+    "name": "Zinc Selenide",
+    "type": "Semiconductor",
+    "properties": [
+      {
+        "symbol": "E_g",
+        "name": "Bulk Bandgap",
+        "unit": "eV",
+        "data": [
+          {
+            "value": 2.58,
+            "ref": "TrindadeCM2001"
+          },
+          {
+            "value": 2.67,
+            "ref": "YaoOME2013"
+          }
+        ]
+      },
+      {
+        "name": "Electron Effective Mass",
+        "symbol": "m_e",
+        "unit": "m_0",
+        "data": [
+          {
+            "value": 0.17,
+            "ref": "TrindadeCM2001"
+          },
+          {
+            "value": 0.165,
+            "ref": "YaoOME2013"
+          }
+        ]
+      },
+      {
+        "name": "Heavy-Hole Effective Mass",
+        "symbol": "m_hh",
+        "unit": "m_0",
+        "data": [
+          {
+            "value": 0.57,
+            "ref": "YaoOME2013"
+          }
+        ]
+      },
+      {
+        "name": "Electronic Affinity",
+        "symbol": "chi_A",
+        "unit": "eV",
+        "data": [
+          {
+            "value": -4.09,
+            "ref": "YaoOME2013"
+          }
+        ]
+      },
+      {
+        "name": "Static Dielectric Permittivity",
+        "symbol": "eps_s",
+        "unit": "eps_0",
+        "data": [
+          {
+            "value": 8.9,
+            "ref": "YaoOME2013"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "material": "ZnTe",
+    "name": "Zinc Telluride",
+    "type": "Semiconductor",
+    "properties": [
+      {
+        "name": "Bulk Bandgap",
+        "symbol": "E_g",
+        "unit": "eV",
+        "data": [
+          {
+            "value": 2.28,
+            "ref": "TrindadeCM2001"
+          },
+          {
+            "value": 2.29,
+            "ref": "YaoOME2013"
+          }
+        ]
+      },
+      {
+        "name": "Electron Effective Mass",
+        "symbol": "m_e",
+        "unit": "m_0",
+        "data": [
+          {
+            "value": 0.15,
+            "ref": "TrindadeCM2001"
+          },
+          {
+            "value": 0.122,
+            "ref": "YaoOME2013"
+          }
+        ]
+      },
+      {
+        "name": "Heavy-Hole Effective Mass",
+        "symbol": "m_hh",
+        "unit": "m_0",
+        "data": [
+          {
+            "value": 0.6,
+            "ref": "YaoOME2013"
+          }
+        ]
+      },
+      {
+        "name": "Electronic Affinity",
+        "symbol": "chi_A",
+        "unit": "eV",
+        "data": [
+          {
+            "value": -3.53,
+            "ref": "YaoOME2013"
+          }
+        ]
+      },
+      {
+        "name": "Static Dielectric Permittivity",
+        "symbol": "eps_s",
+        "unit": "eps_0",
+        "data": [
+          {
+            "value": 9.4,
+            "ref": "YaoOME2013"
           }
         ]
       }
