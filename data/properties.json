@@ -312,6 +312,7 @@
     ]
   },
   {
+<<<<<<< HEAD
     "material": "CuInS2",
     "name": "CIS",
     "type": "Semiconductor",
@@ -434,6 +435,8 @@
     ]
   },
   {
+=======
+>>>>>>> 4af8424e8602a3a4c7acfc36a3e48bdfc2d9fdac
     "material": "GaAs",
     "name": "Gallium Arsenide",
     "type": "Semiconductor",
@@ -721,6 +724,7 @@
         ]
       }
     ]
+<<<<<<< HEAD
   },
   {
     "material": "InP",
@@ -1108,5 +1112,7 @@
         ]
       }
     ]
+=======
+>>>>>>> 4af8424e8602a3a4c7acfc36a3e48bdfc2d9fdac
   }
 ]
