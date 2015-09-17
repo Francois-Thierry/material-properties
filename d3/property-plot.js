@@ -231,7 +231,21 @@ figure.selectAll("circle")
     // // alert(bibentry);
 
     citation = getObjects(biblio, 'citationKey', d.ref)[0]["entryTags"];
-    var bibentry = citation["author"]+"<br/><a target='_blank' href='https://dx.doi.org/"+citation["doi"]+"' style='text-decoration:none'><i>"+citation["title"]+"</i></a><br/>"+citation["journal"]+", "+citation["year"]
+
+    symbol = property["symbol"]
+    if (symbol.indexOf("_") > -1){
+      symbol = symbol.replace(/_/i, "<sub>") + "</sub>"
+    }
+    // get the unit and format subscripts
+    unit = property["unit"]
+    if (unit.indexOf("_") > -1){
+      unit = unit.replace(/_/i, "<sub>") + "</sub>"
+    }
+
+    bibentry = "<b>"+symbol+" = "+d.value+" "+unit+"</b><br/>"
+    bibentry += citation["author"]+"<br/>"
+    bibentry += "<a target='_blank' href='https://dx.doi.org/"+citation["doi"]+"' style='text-decoration:none'><i>"+citation["title"]+"</i></a><br/>"
+    bibentry += citation["journal"]+", "+citation["year"]
     // alert(bibentry);
     // $(selected_graph+"bibitem").html('<p>'+bibentry+'</p>');
     $(selected_graph+"bibitem").html(bibentry);
