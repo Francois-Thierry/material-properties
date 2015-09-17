@@ -47,6 +47,12 @@ function draw(){
 
       // Create SVG figure
 
+      // Sizing - Change here to make it dynamic
+
+      var width = 960;
+      var height = 540;
+      var padding = 120;
+
 var xAxisLabel = property["name"]+" ("+property["unit"].replace(/_/i, "")+")";
 var yAxisLabel = "Year of Publication";
 
@@ -66,7 +72,7 @@ var xScale = d3.time.scale()
   .rangeRound([padding, width - padding]);
 
 var yScale = d3.scale.linear()
-  .domain([d3.min(values)-0.1*yrange, d3.max(values)+0.1*yrange])
+  .domain([d3.min(values)-0.5*yrange, d3.max(values)+0.5*yrange])
   .rangeRound([height - padding, padding]);      
 
 //                                                                        FIGURE
@@ -253,7 +259,7 @@ figure.selectAll("circle")
 // $(selected_graph+"bibitem").innerHTML = bibentry;
   })
 
-figure.attr("transform", "translate("+ 0 +","+ -padding/1.5 +")")
+figure.attr("transform", "translate("+ 0 +","+ -padding +")")
 // $(selected_graph+"bibitem").attr("transform", "translate("+ (width / 2) +","+ (height+padding/2) +")")
 
 // figure.append("text")

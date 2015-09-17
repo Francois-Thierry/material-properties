@@ -19,7 +19,8 @@
   display: inline-block;
 /*  top: 50%;
   right: 50%;*/
-  margin: 0 20px; 
+  margin: 0 20px;
+  margin-top: 20px;
   /*width: 960px;*/
   /*height: 50%;*/
   font-size: 15px;
