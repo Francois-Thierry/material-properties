@@ -1,0 +1,2885 @@
+{
+  "title": "Physical properties of materials",
+  "types": [
+    {
+      "type": "Semiconductors",
+      "materials": [
+        {
+          "properties": [
+            {
+              "data": [
+                {
+                  "ref": "PellegriniJAP2005",
+                  "unit": "eV",
+                  "value": 2.53
+                },
+                {
+                  "ref": "YaoOME2013",
+                  "unit": "eV",
+                  "value": 2.579
+                }
+              ],
+              "property": "E_g",
+              "name": "Bulk Bandgap",
+              "unit": "eV"
+            },
+            {
+              "data": [
+                {
+                  "ref": "PellegriniJAP2005",
+                  "unit": "m_0",
+                  "value": 0.18
+                },
+                {
+                  "ref": "TrindadeCM2001",
+                  "unit": "m_0",
+                  "value": 0.2
+                },
+                {
+                  "ref": "YaoOME2013",
+                  "unit": "m_0",
+                  "value": 0.205
+                }
+              ],
+              "property": "m_e",
+              "name": "Electron Effective Mass",
+              "unit": "m_0"
+            },
+            {
+              "data": [
+                {
+                  "ref": "PellegriniJAP2005",
+                  "unit": "m_0",
+                  "value": 0.53
+                },
+                {
+                  "ref": "TrindadeCM2001",
+                  "unit": "m_0",
+                  "value": 0.7
+                }
+              ],
+              "property": "m_h",
+              "name": "Electron Effective Mass",
+              "unit": "m_0"
+            },
+            {
+              "data": [
+                {
+                  "ref": "PellegriniJAP2005",
+                  "unit": "eV",
+                  "value": -4.3
+                },
+                {
+                  "ref": "YaoOME2013",
+                  "unit": "eV",
+                  "value": -4.79
+                }
+              ],
+              "property": "chi_A",
+              "name": "Electronic Affinity",
+              "unit": "eV"
+            },
+            {
+              "data": [
+                {
+                  "ref": "PellegriniJAP2005",
+                  "unit": "eps_0",
+                  "value": 8.28
+                },
+                {
+                  "ref": "YaoOME2013",
+                  "unit": "eps_0",
+                  "value": 9.8
+                }
+              ],
+              "property": "eps_s",
+              "name": "Static Dielectric Permittivity",
+              "unit": "eps_0"
+            },
+            {
+              "data": [
+                {
+                  "ref": "PellegriniJAP2005",
+                  "unit": "eps_0",
+                  "value": 5.23
+                }
+              ],
+              "property": "eps_inf",
+              "name": "Infinite Frequency Dielectric Permittivity",
+              "unit": "eps_0"
+            }
+          ],
+          "material": "CdS",
+          "name": "Cadmium Sulfide"
+        },
+        {
+          "properties": [
+            {
+              "data": [
+                {
+                  "ref": "PellegriniJAP2005",
+                  "unit": "eV",
+                  "value": 1.75
+                },
+                {
+                  "ref": "TrindadeCM2001",
+                  "unit": "eV",
+                  "value": 1.74
+                },
+                {
+                  "ref": "YaoOME2013",
+                  "unit": "eV",
+                  "value": 1.799
+                }
+              ],
+              "property": "E_g",
+              "name": "Bulk Bandgap",
+              "unit": "eV"
+            },
+            {
+              "data": [
+                {
+                  "ref": "PellegriniJAP2005",
+                  "unit": "m_0",
+                  "value": 0.13
+                }
+              ],
+              "property": "m_e",
+              "name": "Electron Effective Mass",
+              "unit": "m_0"
+            },
+            {
+              "data": [
+                {
+                  "ref": "PellegriniJAP2005",
+                  "unit": "m_0",
+                  "value": 0.3
+                },
+                {
+                  "ref": "TrindadeCM2001",
+                  "unit": "m_0",
+                  "value": 0.4
+                },
+                {
+                  "ref": "YaoOME2013",
+                  "unit": "m_0",
+                  "value": 0.45
+                }
+              ],
+              "property": "m_h",
+              "name": "Hole Effective Mass",
+              "unit": "m_0"
+            },
+            {
+              "data": [
+                {
+                  "ref": "PellegriniJAP2005",
+                  "unit": "eV",
+                  "value": -3.93
+                },
+                {
+                  "ref": "YaoOME2013",
+                  "unit": "eV",
+                  "value": -4.95
+                }
+              ],
+              "property": "chi_A",
+              "name": "Electronic Affinity",
+              "unit": "eV"
+            },
+            {
+              "data": [
+                {
+                  "ref": "PellegriniJAP2005",
+                  "unit": "eps_0",
+                  "value": 9.56
+                },
+                {
+                  "ref": "YaoOME2013",
+                  "unit": "eps_0",
+                  "value": 9.6
+                }
+              ],
+              "property": "eps_s",
+              "name": "Static Dielectric Permittivity",
+              "unit": "eps_0"
+            },
+            {
+              "data": [
+                {
+                  "ref": "PellegriniJAP2005",
+                  "unit": "eps_0",
+                  "value": 6.23
+                }
+              ],
+              "property": "eps_inf",
+              "name": "Infinite Frequency Dielectric Permittivity",
+              "unit": "eps_0"
+            }
+          ],
+          "material": "CdSe",
+          "name": "Cadmium Selenide"
+        },
+        {
+          "properties": [
+            {
+              "data": [
+                {
+                  "ref": "PellegriniJAP2005",
+                  "unit": "eV",
+                  "value": 1.6
+                },
+                {
+                  "ref": "TrindadeCM2001",
+                  "unit": "eV",
+                  "value": 1.5
+                }
+              ],
+              "property": "E_g",
+              "name": "Bulk Bandgap",
+              "unit": "eV"
+            },
+            {
+              "data": [
+                {
+                  "ref": "PellegriniJAP2005",
+                  "unit": "m_0",
+                  "value": 0.11
+                }
+              ],
+              "property": "m_e",
+              "name": "Electron Effective Mass",
+              "unit": "m_0"
+            },
+            {
+              "data": [
+                {
+                  "ref": "PellegriniJAP2005",
+                  "unit": "m_0",
+                  "value": 0.35
+                },
+                {
+                  "ref": "YaoOME2013",
+                  "unit": "m_0",
+                  "value": 0.69
+                }
+              ],
+              "property": "m_h",
+              "name": "Electron Effective Mass",
+              "unit": "m_0"
+            },
+            {
+              "data": [
+                {
+                  "ref": "YaoOME2013",
+                  "unit": "eV",
+                  "value": -4.18
+                }
+              ],
+              "property": "chi_A",
+              "name": "Electronic Affinity",
+              "unit": "eV"
+            },
+            {
+              "data": [
+                {
+                  "ref": "PellegriniJAP2005",
+                  "unit": "eps_0",
+                  "value": 10.3
+                },
+                {
+                  "ref": "YaoOME2013",
+                  "unit": "eps_0",
+                  "value": 10.4
+                }
+              ],
+              "property": "eps_s",
+              "name": "Static Dielectric Permittivity",
+              "unit": "eps_0"
+            },
+            {
+              "data": [
+                {
+                  "ref": "PellegriniJAP2005",
+                  "unit": "eps_0",
+                  "value": 7.1
+                }
+              ],
+              "property": "eps_inf",
+              "name": "Infinite Frequency Dielectric Permittivity",
+              "unit": "eps_0"
+            }
+          ],
+          "material": "CdTe",
+          "name": "Cadmium Telluride"
+        },
+        {
+          "material": "CuInS2",
+          "kind": "Semiconductors",
+          "properties": [
+            {
+              "property": "E_g",
+              "name": "Bulk Bandgap",
+              "unit": "eV",
+              "data": [
+                {
+                  "ref": "LiJMC2010",
+                  "unit": "eV",
+                  "value": 1.5
+                }
+              ]
+            },
+            {
+              "property": "m_e",
+              "name": "Electron Effective Mass",
+              "unit": "m_0",
+              "data": [
+                {
+                  "ref": "LiJMC2010",
+                  "unit": "m_0",
+                  "value": 0.16
+                }
+              ]
+            },
+            {
+              "property": "m_h",
+              "name": "Hole Effective Mass",
+              "unit": "m_0",
+              "data": [
+                {
+                  "ref": "LiJMC2010",
+                  "unit": "m_0",
+                  "value": 1.3
+                }
+              ]
+            },
+            {
+              "property": "chi_A",
+              "name": "Electronic Affinity",
+              "unit": "eV",
+              "data": [
+                {
+                  "ref": "ShangTSF2014",
+                  "unit": "eV",
+                  "value": -4.5
+                }
+              ]
+            },
+            {
+              "property": "eps_s",
+              "name": "Static Dielectric Permittivity",
+              "unit": "eps_0",
+              "data": [
+                {
+                  "ref": "LiJMC2010",
+                  "unit": "eps_0",
+                  "value": 11
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "material": "CuInSe2",
+          "kind": "Semiconductors",
+          "properties": [
+            {
+              "property": "E_g",
+              "name": "Bulk Bandgap",
+              "unit": "eV",
+              "data": [
+                {
+                  "ref": "NeumannSC1986",
+                  "unit": "eV",
+                  "value": 1.01
+                }
+              ]
+            },
+            {
+              "property": "m_e",
+              "name": "Electron Effective Mass",
+              "unit": "m_0",
+              "data": [
+                {
+                  "ref": "NeumannSC1986",
+                  "unit": "m_0",
+                  "value": 0.09
+                }
+              ]
+            },
+            {
+              "property": "m_h",
+              "name": "Hole Effective Mass",
+              "unit": "m_0",
+              "data": [
+                {
+                  "ref": "NeumannSC1986",
+                  "unit": "m_0",
+                  "value": 0.71
+                }
+              ]
+            },
+            {
+              "property": "chi_A",
+              "name": "Electronic Affinity",
+              "unit": "eV",
+              "data": [
+                {
+                  "ref": "AlKuhaimiSEMSC1998",
+                  "unit": "eV",
+                  "value": -4.21
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "properties": [
+            {
+              "data": [
+                {
+                  "ref": "MaOL2014",
+                  "unit": "eV",
+                  "value": 1.42
+                },
+                {
+                  "ref": "TrindadeCM2001",
+                  "unit": "eV",
+                  "value": 1.43
+                }
+              ],
+              "property": "E_g",
+              "name": "Bulk Bandgap",
+              "unit": "eV"
+            },
+            {
+              "data": [
+                {
+                  "ref": "TrindadeCM2001",
+                  "unit": "m_0",
+                  "value": 0.07
+                },
+                {
+                  "ref": "MaOL2014",
+                  "unit": "m_0",
+                  "value": 0.067
+                }
+              ],
+              "property": "m_e",
+              "name": "Electron Effective Mass",
+              "unit": "m_0"
+            },
+            {
+              "data": [
+                {
+                  "ref": "TrindadeCM2001",
+                  "unit": "m_0",
+                  "value": 0.5
+                },
+                {
+                  "ref": "MaOL2014",
+                  "unit": "m_0",
+                  "value": 0.48
+                }
+              ],
+              "property": "m_h",
+              "name": "Electron Effective Mass",
+              "unit": "m_0"
+            },
+            {
+              "data": [
+                {
+                  "ref": "MaOL2014",
+                  "unit": "eV",
+                  "value": -4.06
+                },
+                {
+                  "ref": "LaarJVCT1977",
+                  "unit": "eV",
+                  "value": -5.13
+                }
+              ],
+              "property": "chi_A",
+              "name": "Electronic Affinity",
+              "unit": "eV"
+            }
+          ],
+          "material": "GaAs",
+          "name": "Gallium Arsenide"
+        },
+        {
+          "properties": [
+            {
+              "data": [
+                {
+                  "ref": "Taylor1998133",
+                  "unit": "eV",
+                  "value": 2.272
+                },
+                {
+                  "ref": "TrindadeCM2001",
+                  "unit": "eV",
+                  "value": 2.25
+                },
+                {
+                  "ref": "LaarJVCT1977",
+                  "unit": "eV",
+                  "value": 2.26
+                }
+              ],
+              "property": "E_g",
+              "name": "Bulk Bandgap",
+              "unit": "eV"
+            },
+            {
+              "data": [
+                {
+                  "ref": "TrindadeCM2001",
+                  "unit": "m_0",
+                  "value": 0.13
+                }
+              ],
+              "property": "m_e",
+              "name": "Electron Effective Mass",
+              "unit": "m_0"
+            },
+            {
+              "data": [
+                {
+                  "ref": "TrindadeCM2001",
+                  "unit": "m_0",
+                  "value": 0.67
+                }
+              ],
+              "property": "m_h",
+              "name": "Electron Effective Mass",
+              "unit": "m_0"
+            },
+            {
+              "data": [
+                {
+                  "ref": "Taylor1998133",
+                  "unit": "eV",
+                  "value": -3.74
+                },
+                {
+                  "ref": "LaarJVCT1977",
+                  "unit": "eV",
+                  "value": -3.75
+                }
+              ],
+              "property": "chi_A",
+              "name": "Electronic Affinity",
+              "unit": "eV"
+            }
+          ],
+          "material": "GaP",
+          "name": "Gallium Phosphide"
+        },
+        {
+          "properties": [
+            {
+              "data": [
+                {
+                  "ref": "TrindadeCM2001",
+                  "unit": "eV",
+                  "value": 0.69
+                },
+                {
+                  "ref": "LaarJVCT1977",
+                  "unit": "eV",
+                  "value": 0.7
+                }
+              ],
+              "property": "E_g",
+              "name": "Bulk Bandgap",
+              "unit": "eV"
+            },
+            {
+              "data": [
+                {
+                  "ref": "TrindadeCM2001",
+                  "unit": "m_0",
+                  "value": 0.045
+                }
+              ],
+              "property": "m_e",
+              "name": "Electron Effective Mass",
+              "unit": "m_0"
+            },
+            {
+              "data": [
+                {
+                  "ref": "TrindadeCM2001",
+                  "unit": "m_0",
+                  "value": 0.39
+                }
+              ],
+              "property": "m_h",
+              "name": "Electron Effective Mass",
+              "unit": "m_0"
+            },
+            {
+              "data": [
+                {
+                  "ref": "LaarJVCT1977",
+                  "unit": "eV",
+                  "value": -4.21
+                }
+              ],
+              "property": "chi_A",
+              "name": "Electronic Affinity",
+              "unit": "eV"
+            }
+          ],
+          "material": "GaSb",
+          "name": "Gallium Antimonide"
+        },
+        {
+          "properties": [
+            {
+              "data": [
+                {
+                  "ref": "PellegriniJAP2005",
+                  "unit": "eV",
+                  "value": 0.36
+                }
+              ],
+              "property": "E_g",
+              "name": "Bulk Bandgap",
+              "unit": "eV"
+            },
+            {
+              "data": [
+                {
+                  "ref": "PellegriniJAP2005",
+                  "unit": "m_0",
+                  "value": 0.028
+                }
+              ],
+              "property": "m_e",
+              "name": "Electron Effective Mass",
+              "unit": "m_0"
+            },
+            {
+              "data": [
+                {
+                  "ref": "PellegriniJAP2005",
+                  "unit": "m_0",
+                  "value": 0.33
+                }
+              ],
+              "property": "m_h",
+              "name": "Electron Effective Mass",
+              "unit": "m_0"
+            },
+            {
+              "data": [
+                {
+                  "ref": "PellegriniJAP2005",
+                  "unit": "eV",
+                  "value": -4.9
+                },
+                {
+                  "ref": "LaarJVCT1977",
+                  "unit": "eV",
+                  "value": -5.06
+                }
+              ],
+              "property": "chi_A",
+              "name": "Electronic Affinity",
+              "unit": "eV"
+            },
+            {
+              "data": [
+                {
+                  "ref": "PellegriniJAP2005",
+                  "unit": "eps_0",
+                  "value": 15.2
+                }
+              ],
+              "property": "eps_s",
+              "name": "Static Dielectric Permittivity",
+              "unit": "eps_0"
+            },
+            {
+              "data": [
+                {
+                  "ref": "PellegriniJAP2005",
+                  "unit": "eps_0",
+                  "value": 12.3
+                }
+              ],
+              "property": "eps_inf",
+              "name": "Infinite Frequency Dielectric Permittivity",
+              "unit": "eps_0"
+            }
+          ],
+          "material": "InAs",
+          "name": "Indium Arsenide"
+        },
+        {
+          "properties": [
+            {
+              "data": [
+                {
+                  "ref": "PellegriniJAP2005",
+                  "unit": "eV",
+                  "value": 1.35
+                },
+                {
+                  "ref": "TrindadeCM2001",
+                  "unit": "eV",
+                  "value": 1.28
+                }
+              ],
+              "property": "E_g",
+              "name": "Bulk Bandgap",
+              "unit": "eV"
+            },
+            {
+              "data": [
+                {
+                  "ref": "PellegriniJAP2005",
+                  "unit": "m_0",
+                  "value": 0.065
+                },
+                {
+                  "ref": "TrindadeCM2001",
+                  "unit": "m_0",
+                  "value": 0.07
+                }
+              ],
+              "property": "m_e",
+              "name": "Electron Effective Mass",
+              "unit": "m_0"
+            },
+            {
+              "data": [
+                {
+                  "ref": "PellegriniJAP2005",
+                  "unit": "m_0",
+                  "value": 0.4
+                }
+              ],
+              "property": "m_h",
+              "name": "Electron Effective Mass",
+              "unit": "m_0"
+            },
+            {
+              "data": [
+                {
+                  "ref": "PellegriniJAP2005",
+                  "unit": "eV",
+                  "value": -4.38
+                },
+                {
+                  "ref": "LaarJVCT1977",
+                  "unit": "eV",
+                  "value": -5.5
+                }
+              ],
+              "property": "chi_A",
+              "name": "Electronic Affinity",
+              "unit": "eV"
+            },
+            {
+              "data": [
+                {
+                  "ref": "PellegriniJAP2005",
+                  "unit": "eps_0",
+                  "value": 15
+                }
+              ],
+              "property": "eps_s",
+              "name": "Static Dielectric Permittivity",
+              "unit": "eps_0"
+            },
+            {
+              "data": [
+                {
+                  "ref": "PellegriniJAP2005",
+                  "unit": "eps_0",
+                  "value": 10.6
+                }
+              ],
+              "property": "eps_inf",
+              "name": "Infinite Frequency Dielectric Permittivity",
+              "unit": "eps_0"
+            }
+          ],
+          "material": "InP",
+          "name": "Indium Phosphide"
+        },
+        {
+          "properties": [
+            {
+              "data": [
+                {
+                  "ref": "TrindadeCM2001",
+                  "unit": "eV",
+                  "value": 0.17
+                },
+                {
+                  "ref": "LaarJVCT1977",
+                  "unit": "eV",
+                  "value": 0.18
+                }
+              ],
+              "property": "E_g",
+              "name": "Bulk Bandgap",
+              "unit": "eV"
+            },
+            {
+              "data": [
+                {
+                  "ref": "TrindadeCM2001",
+                  "unit": "m_0",
+                  "value": 0.0133
+                }
+              ],
+              "property": "m_e",
+              "name": "Electron Effective Mass",
+              "unit": "m_0"
+            },
+            {
+              "data": [
+                {
+                  "ref": "TrindadeCM2001",
+                  "unit": "m_0",
+                  "value": 0.18
+                }
+              ],
+              "property": "m_h",
+              "name": "Electron Effective Mass",
+              "unit": "m_0"
+            },
+            {
+              "data": [
+                {
+                  "ref": "LaarJVCT1977",
+                  "unit": "eV",
+                  "value": -4.72
+                }
+              ],
+              "property": "chi_A",
+              "name": "Electronic Affinity",
+              "unit": "eV"
+            }
+          ],
+          "material": "InSb",
+          "name": "Indium Antimonide"
+        },
+        {
+          "properties": [
+            {
+              "data": [
+                {
+                  "ref": "PellegriniJAP2005",
+                  "unit": "eV",
+                  "value": 0.41
+                },
+                {
+                  "ref": "TrindadeCM2001",
+                  "unit": "eV",
+                  "value": 0.37
+                }
+              ],
+              "property": "E_g",
+              "name": "Bulk Bandgap",
+              "unit": "eV"
+            },
+            {
+              "data": [
+                {
+                  "ref": "PellegriniJAP2005",
+                  "unit": "m_0",
+                  "value": 0.085
+                },
+                {
+                  "ref": "TrindadeCM2001",
+                  "unit": "m_0",
+                  "value": 0.1
+                }
+              ],
+              "property": "m_e",
+              "name": "Electron Effective Mass",
+              "unit": "m_0"
+            },
+            {
+              "data": [
+                {
+                  "ref": "PellegriniJAP2005",
+                  "unit": "m_0",
+                  "value": 0.085
+                },
+                {
+                  "ref": "TrindadeCM2001",
+                  "unit": "m_0",
+                  "value": 0.1
+                }
+              ],
+              "property": "m_h",
+              "name": "Electron Effective Mass",
+              "unit": "m_0"
+            },
+            {
+              "data": [
+                {
+                  "ref": "PellegriniJAP2005",
+                  "unit": "eV",
+                  "value": -4.6
+                },
+                {
+                  "ref": "LaarJVCT1977",
+                  "unit": "eV",
+                  "value": -5.5
+                }
+              ],
+              "property": "chi_A",
+              "name": "Electronic Affinity",
+              "unit": "eV"
+            },
+            {
+              "data": [
+                {
+                  "ref": "PellegriniJAP2005",
+                  "unit": "eps_0",
+                  "value": 161
+                }
+              ],
+              "property": "eps_s",
+              "name": "Static Dielectric Permittivity",
+              "unit": "eps_0"
+            },
+            {
+              "data": [
+                {
+                  "ref": "PellegriniJAP2005",
+                  "unit": "eps_0",
+                  "value": 17.2
+                }
+              ],
+              "property": "eps_inf",
+              "name": "Infinite Frequency Dielectric Permittivity",
+              "unit": "eps_0"
+            }
+          ],
+          "material": "PbS",
+          "name": "Lead Sulfide"
+        },
+        {
+          "properties": [
+            {
+              "data": [
+                {
+                  "ref": "PellegriniJAP2005",
+                  "unit": "eV",
+                  "value": 0.26
+                }
+              ],
+              "property": "E_g",
+              "name": "Bulk Bandgap",
+              "unit": "eV"
+            },
+            {
+              "data": [
+                {
+                  "ref": "PellegriniJAP2005",
+                  "unit": "m_0",
+                  "value": 0.07
+                }
+              ],
+              "property": "m_e",
+              "name": "Electron Effective Mass",
+              "unit": "m_0"
+            },
+            {
+              "data": [
+                {
+                  "ref": "PellegriniJAP2005",
+                  "unit": "m_0",
+                  "value": 0.06
+                }
+              ],
+              "property": "m_h",
+              "name": "Electron Effective Mass",
+              "unit": "m_0"
+            },
+            {
+              "data": [
+                {
+                  "ref": "PellegriniJAP2005",
+                  "unit": "eV",
+                  "value": -4.7
+                }
+              ],
+              "property": "chi_A",
+              "name": "Electronic Affinity",
+              "unit": "eV"
+            },
+            {
+              "data": [
+                {
+                  "ref": "PellegriniJAP2005",
+                  "unit": "eps_0",
+                  "value": 227
+                }
+              ],
+              "property": "eps_s",
+              "name": "Static Dielectric Permittivity",
+              "unit": "eps_0"
+            },
+            {
+              "data": [
+                {
+                  "ref": "PellegriniJAP2005",
+                  "unit": "eps_0",
+                  "value": 25
+                }
+              ],
+              "property": "eps_inf",
+              "name": "Infinite Frequency Dielectric Permittivity",
+              "unit": "eps_0"
+            }
+          ],
+          "material": "PbSe",
+          "name": "Lead Selenide"
+        },
+        {
+          "properties": [
+            {
+              "data": [
+                {
+                  "ref": "TrindadeCM2001",
+                  "unit": "eV",
+                  "value": 0.29
+                }
+              ],
+              "property": "E_g",
+              "name": "Bulk Bandgap",
+              "unit": "eV"
+            },
+            {
+              "data": [
+                {
+                  "ref": "TrindadeCM2001",
+                  "unit": "m_0",
+                  "value": 0.24
+                }
+              ],
+              "property": "m_e",
+              "name": "Electron Effective Mass",
+              "unit": "m_0"
+            },
+            {
+              "data": [
+                {
+                  "ref": "TrindadeCM2001",
+                  "unit": "m_0",
+                  "value": 0.3
+                }
+              ],
+              "property": "m_h",
+              "name": "Electron Effective Mass",
+              "unit": "m_0"
+            },
+            {
+              "data": [
+                {
+                  "ref": "SpicerPRB1965",
+                  "unit": "eV",
+                  "value": -4.6
+                }
+              ],
+              "property": "chi_A",
+              "name": "Electronic Affinity",
+              "unit": "eV"
+            }
+          ],
+          "material": "PbTe",
+          "name": "Lead Telluride"
+        },
+        {
+          "properties": [
+            {
+              "data": [
+                {
+                  "ref": "BurtonAPL2013",
+                  "unit": "eV",
+                  "value": 1.1
+                }
+              ],
+              "property": "E_g",
+              "name": "Bulk Bandgap",
+              "unit": "eV"
+            },
+            {
+              "data": [
+                {
+                  "ref": "BurtonAPL2013",
+                  "unit": "eV",
+                  "value": -3.6
+                }
+              ],
+              "property": "chi_A",
+              "name": "Electronic Affinity",
+              "unit": "eV"
+            }
+          ],
+          "material": "SnS",
+          "name": "Tin Sulfide"
+        },
+        {
+          "properties": [
+            {
+              "data": [
+                {
+                  "ref": "BakJPCS2003",
+                  "unit": "eV",
+                  "value": 3.039
+                }
+              ],
+              "property": "E_g",
+              "name": "Bulk Bandgap",
+              "unit": "eV"
+            },
+            {
+              "data": [
+                {
+                  "ref": "YahiaPR1963",
+                  "unit": "m_0",
+                  "value": 30
+                }
+              ],
+              "property": "m_e",
+              "name": "Electron Effective Mass",
+              "unit": "m_0"
+            },
+            {
+              "data": [
+                {
+                  "ref": "YahiaPR1963",
+                  "unit": "m_0",
+                  "value": 1
+                }
+              ],
+              "property": "m_h",
+              "name": "Electron Effective Mass",
+              "unit": "m_0"
+            },
+            {
+              "data": [
+                {
+                  "ref": "ScanlonNM2013",
+                  "unit": "eV",
+                  "value": -4.8
+                }
+              ],
+              "property": "chi_A",
+              "name": "Electronic Affinity",
+              "unit": "eV"
+            }
+          ],
+          "material": "TiO2",
+          "name": "Titanium Dioxyde"
+        },
+        {
+          "properties": [
+            {
+              "data": [
+                {
+                  "ref": "RamliCL2013",
+                  "unit": "eV",
+                  "value": 3.37
+                }
+              ],
+              "property": "E_g",
+              "name": "Bulk Bandgap",
+              "unit": "eV"
+            },
+            {
+              "data": [
+                {
+                  "ref": "RamliCL2013",
+                  "unit": "eV",
+                  "value": -4.5
+                }
+              ],
+              "property": "chi_A",
+              "name": "Electronic Affinity",
+              "unit": "eV"
+            },
+            {
+              "data": [
+                {
+                  "ref": "RamliCL2013",
+                  "unit": "eps_0",
+                  "value": 8.49
+                }
+              ],
+              "property": "eps_s",
+              "name": "Static Dielectric Permittivity",
+              "unit": "eps_0"
+            }
+          ],
+          "material": "ZnO",
+          "name": "Zinc Oxyde"
+        },
+        {
+          "properties": [
+            {
+              "data": [
+                {
+                  "ref": "TrindadeCM2001",
+                  "unit": "eV",
+                  "value": 3.8
+                },
+                {
+                  "ref": "RamliCL2013",
+                  "unit": "eV",
+                  "value": 3.68
+                }
+              ],
+              "property": "E_g",
+              "name": "Bulk Bandgap",
+              "unit": "eV"
+            },
+            {
+              "data": [
+                {
+                  "ref": "TrindadeCM2001",
+                  "unit": "m_0",
+                  "value": 0.28
+                }
+              ],
+              "property": "m_e",
+              "name": "Electron Effective Mass",
+              "unit": "m_0"
+            },
+            {
+              "data": [
+                {
+                  "ref": "TrindadeCM2001",
+                  "unit": "m_0",
+                  "value": 0.5
+                }
+              ],
+              "property": "m_h",
+              "name": "Electron Effective Mass",
+              "unit": "m_0"
+            },
+            {
+              "data": [
+                {
+                  "ref": "RamliCL2013",
+                  "unit": "eV",
+                  "value": -3.9
+                }
+              ],
+              "property": "chi_A",
+              "name": "Electronic Affinity",
+              "unit": "eV"
+            },
+            {
+              "data": [
+                {
+                  "ref": "RamliCL2013",
+                  "unit": "eps_0",
+                  "value": 8.3
+                }
+              ],
+              "property": "eps_s",
+              "name": "Static Dielectric Permittivity",
+              "unit": "eps_0"
+            }
+          ],
+          "material": "ZnS",
+          "name": "Zinc Sulfide"
+        },
+        {
+          "properties": [
+            {
+              "data": [
+                {
+                  "ref": "TrindadeCM2001",
+                  "unit": "eV",
+                  "value": 2.58
+                },
+                {
+                  "ref": "YaoOME2013",
+                  "unit": "eV",
+                  "value": 2.67
+                }
+              ],
+              "property": "E_g",
+              "name": "Bulk Bandgap",
+              "unit": "eV"
+            },
+            {
+              "data": [
+                {
+                  "ref": "TrindadeCM2001",
+                  "unit": "m_0",
+                  "value": 0.17
+                },
+                {
+                  "ref": "YaoOME2013",
+                  "unit": "m_0",
+                  "value": 0.165
+                }
+              ],
+              "property": "m_e",
+              "name": "Electron Effective Mass",
+              "unit": "m_0"
+            },
+            {
+              "data": [
+                {
+                  "ref": "YaoOME2013",
+                  "unit": "m_0",
+                  "value": 0.57
+                }
+              ],
+              "property": "m_h",
+              "name": "Electron Effective Mass",
+              "unit": "m_0"
+            },
+            {
+              "data": [
+                {
+                  "ref": "YaoOME2013",
+                  "unit": "eV",
+                  "value": -4.09
+                }
+              ],
+              "property": "chi_A",
+              "name": "Electronic Affinity",
+              "unit": "eV"
+            },
+            {
+              "data": [
+                {
+                  "ref": "YaoOME2013",
+                  "unit": "eps_0",
+                  "value": 8.9
+                }
+              ],
+              "property": "eps_s",
+              "name": "Static Dielectric Permittivity",
+              "unit": "eps_0"
+            }
+          ],
+          "material": "ZnSe",
+          "name": "Zinc Selenide"
+        },
+        {
+          "properties": [
+            {
+              "data": [
+                {
+                  "ref": "TrindadeCM2001",
+                  "unit": "eV",
+                  "value": 2.28
+                },
+                {
+                  "ref": "YaoOME2013",
+                  "unit": "eV",
+                  "value": 2.29
+                }
+              ],
+              "property": "E_g",
+              "name": "Bulk Bandgap",
+              "unit": "eV"
+            },
+            {
+              "data": [
+                {
+                  "ref": "TrindadeCM2001",
+                  "unit": "m_0",
+                  "value": 0.15
+                },
+                {
+                  "ref": "YaoOME2013",
+                  "unit": "m_0",
+                  "value": 0.122
+                }
+              ],
+              "property": "m_e",
+              "name": "Electron Effective Mass",
+              "unit": "m_0"
+            },
+            {
+              "data": [
+                {
+                  "ref": "YaoOME2013",
+                  "unit": "m_0",
+                  "value": 0.6
+                }
+              ],
+              "property": "m_h",
+              "name": "Electron Effective Mass",
+              "unit": "m_0"
+            },
+            {
+              "data": [
+                {
+                  "ref": "YaoOME2013",
+                  "unit": "eV",
+                  "value": -3.53
+                }
+              ],
+              "property": "chi_A",
+              "name": "Electronic Affinity",
+              "unit": "eV"
+            },
+            {
+              "data": [
+                {
+                  "ref": "YaoOME2013",
+                  "unit": "eps_0",
+                  "value": 9.4
+                }
+              ],
+              "property": "eps_s",
+              "name": "Static Dielectric Permittivity",
+              "unit": "eps_0"
+            }
+          ],
+          "material": "ZnTe",
+          "name": "Zinc Telluride"
+        }
+      ]
+    },
+    {
+      "type": "Polymers",
+      "materials": [
+        {
+          "material": "C12Por",
+          "kind": "small molecule donor",
+          "properties": [
+            {
+              "property": "E_g",
+              "name": "Bulk Bandgap",
+              "unit": "eV",
+              "data": [
+                {
+                  "ref": "DongCSR2012",
+                  "unit": "eV",
+                  "value": 2.1
+                }
+              ]
+            },
+            {
+              "property": "chi_A",
+              "name": "Electronic Affinity",
+              "unit": "eV",
+              "data": [
+                {
+                  "ref": "DongCSR2012",
+                  "unit": "eV",
+                  "value": -3.3
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "material": "CuPc",
+          "kind": "small molecule donor",
+          "properties": [
+            {
+              "property": "E_g",
+              "name": "Bulk Bandgap",
+              "unit": "eV",
+              "data": [
+                {
+                  "ref": "DongCSR2012",
+                  "unit": "eV",
+                  "value": 1.7
+                }
+              ]
+            },
+            {
+              "property": "chi_A",
+              "name": "Electronic Affinity",
+              "unit": "eV",
+              "data": [
+                {
+                  "ref": "DongCSR2012",
+                  "unit": "eV",
+                  "value": -3.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "material": "pentacene",
+          "kind": "small molecule donor",
+          "properties": [
+            {
+              "property": "E_g",
+              "name": "Bulk Bandgap",
+              "unit": "eV",
+              "data": [
+                {
+                  "ref": "DongCSR2012",
+                  "unit": "eV",
+                  "value": 1.9
+                }
+              ]
+            },
+            {
+              "property": "chi_A",
+              "name": "Electronic Affinity",
+              "unit": "eV",
+              "data": [
+                {
+                  "ref": "DongCSR2012",
+                  "unit": "eV",
+                  "value": -3.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "material": "HBC-PHC12",
+          "kind": "small molecule donor",
+          "properties": [
+            {
+              "property": "E_g",
+              "name": "Bulk Bandgap",
+              "unit": "eV",
+              "data": [
+                {
+                  "ref": "DongCSR2012",
+                  "unit": "eV",
+                  "value": 2.61
+                }
+              ]
+            },
+            {
+              "property": "chi_A",
+              "name": "Electronic Affinity",
+              "unit": "eV",
+              "data": [
+                {
+                  "ref": "DongCSR2012",
+                  "unit": "eV",
+                  "value": -2.64
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "material": "A-P6t",
+          "kind": "small molecule donor",
+          "properties": [
+            {
+              "property": "E_g",
+              "name": "Bulk Bandgap",
+              "unit": "eV",
+              "data": [
+                {
+                  "ref": "DongCSR2012",
+                  "unit": "eV",
+                  "value": 2.53
+                }
+              ]
+            },
+            {
+              "property": "chi_A",
+              "name": "Electronic Affinity",
+              "unit": "eV",
+              "data": [
+                {
+                  "ref": "DongCSR2012",
+                  "unit": "eV",
+                  "value": -2.98
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "material": "M1",
+          "kind": "small molecule donor",
+          "properties": [
+            {
+              "property": "E_g",
+              "name": "Bulk Bandgap",
+              "unit": "eV",
+              "data": [
+                {
+                  "ref": "DongCSR2012",
+                  "unit": "eV",
+                  "value": 2.43
+                }
+              ]
+            },
+            {
+              "property": "chi_A",
+              "name": "Electronic Affinity",
+              "unit": "eV",
+              "data": [
+                {
+                  "ref": "DongCSR2012",
+                  "unit": "eV",
+                  "value": -2.6
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "material": "DBC",
+          "kind": "small molecule donor",
+          "properties": [
+            {
+              "property": "E_g",
+              "name": "Bulk Bandgap",
+              "unit": "eV",
+              "data": [
+                {
+                  "ref": "DongCSR2012",
+                  "unit": "eV",
+                  "value": 2.2
+                }
+              ]
+            },
+            {
+              "property": "chi_A",
+              "name": "Electronic Affinity",
+              "unit": "eV",
+              "data": [
+                {
+                  "ref": "DongCSR2012",
+                  "unit": "eV",
+                  "value": -2.9
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "material": "M5",
+          "kind": "small molecule donor",
+          "properties": [
+            {
+              "property": "E_g",
+              "name": "Bulk Bandgap",
+              "unit": "eV",
+              "data": [
+                {
+                  "ref": "DongCSR2012",
+                  "unit": "eV",
+                  "value": 3.39
+                }
+              ]
+            },
+            {
+              "property": "chi_A",
+              "name": "Electronic Affinity",
+              "unit": "eV",
+              "data": [
+                {
+                  "ref": "DongCSR2012",
+                  "unit": "eV",
+                  "value": -2.18
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "material": "M6",
+          "kind": "small molecule donor",
+          "properties": [
+            {
+              "property": "E_g",
+              "name": "Bulk Bandgap",
+              "unit": "eV",
+              "data": [
+                {
+                  "ref": "DongCSR2012",
+                  "unit": "eV",
+                  "value": 3.39
+                }
+              ]
+            },
+            {
+              "property": "chi_A",
+              "name": "Electronic Affinity",
+              "unit": "eV",
+              "data": [
+                {
+                  "ref": "DongCSR2012",
+                  "unit": "eV",
+                  "value": -2.66
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "material": "M8",
+          "kind": "small molecule donor",
+          "properties": [
+            {
+              "property": "E_g",
+              "name": "Bulk Bandgap",
+              "unit": "eV",
+              "data": [
+                {
+                  "ref": "DongCSR2012",
+                  "unit": "eV",
+                  "value": 3.39
+                }
+              ]
+            },
+            {
+              "property": "chi_A",
+              "name": "Electronic Affinity",
+              "unit": "eV",
+              "data": [
+                {
+                  "ref": "DongCSR2012",
+                  "unit": "eV",
+                  "value": -3.07
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "material": "alpha-DH6TDPP",
+          "kind": "small molecule donor",
+          "properties": [
+            {
+              "property": "E_g",
+              "name": "Bulk Bandgap",
+              "unit": "eV",
+              "data": [
+                {
+                  "ref": "DongCSR2012",
+                  "unit": "eV",
+                  "value": 2.03
+                }
+              ]
+            },
+            {
+              "property": "chi_A",
+              "name": "Electronic Affinity",
+              "unit": "eV",
+              "data": [
+                {
+                  "ref": "DongCSR2012",
+                  "unit": "eV",
+                  "value": -3.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "material": "SMDPPEH",
+          "kind": "small molecule donor",
+          "properties": [
+            {
+              "property": "E_g",
+              "name": "Bulk Bandgap",
+              "unit": "eV",
+              "data": [
+                {
+                  "ref": "DongCSR2012",
+                  "unit": "eV",
+                  "value": 1.5
+                }
+              ]
+            },
+            {
+              "property": "chi_A",
+              "name": "Electronic Affinity",
+              "unit": "eV",
+              "data": [
+                {
+                  "ref": "DongCSR2012",
+                  "unit": "eV",
+                  "value": -3.7
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "material": "DPP(TBFu)2",
+          "kind": "small molecule donor",
+          "properties": [
+            {
+              "property": "E_g",
+              "name": "Bulk Bandgap",
+              "unit": "eV",
+              "data": [
+                {
+                  "ref": "DongCSR2012",
+                  "unit": "eV",
+                  "value": 1.7
+                }
+              ]
+            },
+            {
+              "property": "chi_A",
+              "name": "Electronic Affinity",
+              "unit": "eV",
+              "data": [
+                {
+                  "ref": "DongCSR2012",
+                  "unit": "eV",
+                  "value": -3.4
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "material": "PhNOF-OT-DCN",
+          "kind": "small molecule donor",
+          "properties": [
+            {
+              "property": "E_g",
+              "name": "Bulk Bandgap",
+              "unit": "eV",
+              "data": [
+                {
+                  "ref": "DongCSR2012",
+                  "unit": "eV",
+                  "value": 1.9
+                }
+              ]
+            },
+            {
+              "property": "chi_A",
+              "name": "Electronic Affinity",
+              "unit": "eV",
+              "data": [
+                {
+                  "ref": "DongCSR2012",
+                  "unit": "eV",
+                  "value": -3.3
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "material": "BTDA3T",
+          "kind": "small molecule donor",
+          "properties": [
+            {
+              "property": "E_g",
+              "name": "Bulk Bandgap",
+              "unit": "eV",
+              "data": [
+                {
+                  "ref": "DongCSR2012",
+                  "unit": "eV",
+                  "value": 2.16
+                }
+              ]
+            },
+            {
+              "property": "chi_A",
+              "name": "Electronic Affinity",
+              "unit": "eV",
+              "data": [
+                {
+                  "ref": "DongCSR2012",
+                  "unit": "eV",
+                  "value": -3.34
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "material": "TDAPy3T",
+          "kind": "small molecule donor",
+          "properties": [
+            {
+              "property": "E_g",
+              "name": "Bulk Bandgap",
+              "unit": "eV",
+              "data": [
+                {
+                  "ref": "DongCSR2012",
+                  "unit": "eV",
+                  "value": 2.01
+                }
+              ]
+            },
+            {
+              "property": "chi_A",
+              "name": "Electronic Affinity",
+              "unit": "eV",
+              "data": [
+                {
+                  "ref": "DongCSR2012",
+                  "unit": "eV",
+                  "value": -3.64
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "material": "DCV1T",
+          "kind": "small molecule donor",
+          "properties": [
+            {
+              "property": "E_g",
+              "name": "Bulk Bandgap",
+              "unit": "eV",
+              "data": [
+                {
+                  "ref": "DongCSR2012",
+                  "unit": "eV",
+                  "value": 2.78
+                }
+              ]
+            },
+            {
+              "property": "chi_A",
+              "name": "Electronic Affinity",
+              "unit": "eV",
+              "data": [
+                {
+                  "ref": "DongCSR2012",
+                  "unit": "eV",
+                  "value": -4.3
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "material": "DCV4T",
+          "kind": "small molecule donor",
+          "properties": [
+            {
+              "property": "E_g",
+              "name": "Bulk Bandgap",
+              "unit": "eV",
+              "data": [
+                {
+                  "ref": "DongCSR2012",
+                  "unit": "eV",
+                  "value": 1.89
+                }
+              ]
+            },
+            {
+              "property": "chi_A",
+              "name": "Electronic Affinity",
+              "unit": "eV",
+              "data": [
+                {
+                  "ref": "DongCSR2012",
+                  "unit": "eV",
+                  "value": -3.87
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "material": "DCV7T",
+          "kind": "small molecule donor",
+          "properties": [
+            {
+              "property": "E_g",
+              "name": "Bulk Bandgap",
+              "unit": "eV",
+              "data": [
+                {
+                  "ref": "DongCSR2012",
+                  "unit": "eV",
+                  "value": 1.7
+                }
+              ]
+            },
+            {
+              "property": "chi_A",
+              "name": "Electronic Affinity",
+              "unit": "eV",
+              "data": [
+                {
+                  "ref": "DongCSR2012",
+                  "unit": "eV",
+                  "value": -3.4
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "material": "EPPTC",
+          "kind": "acceptor",
+          "properties": [
+            {
+              "property": "E_g",
+              "name": "Bulk Bandgap",
+              "unit": "eV",
+              "data": [
+                {
+                  "ref": "DongCSR2012",
+                  "unit": "eV",
+                  "value": 2.03
+                }
+              ]
+            },
+            {
+              "property": "chi_A",
+              "name": "Electronic Affinity",
+              "unit": "eV",
+              "data": [
+                {
+                  "ref": "DongCSR2012",
+                  "unit": "eV",
+                  "value": -3.29
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "material": "C60",
+          "kind": "acceptor",
+          "properties": [
+            {
+              "property": "E_g",
+              "name": "Bulk Bandgap",
+              "unit": "eV",
+              "data": [
+                {
+                  "ref": "DongCSR2012",
+                  "unit": "eV",
+                  "value": 1.7
+                }
+              ]
+            },
+            {
+              "property": "chi_A",
+              "name": "Electronic Affinity",
+              "unit": "eV",
+              "data": [
+                {
+                  "ref": "DongCSR2012",
+                  "unit": "eV",
+                  "value": -4.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "material": "PCBM",
+          "kind": "acceptor",
+          "properties": [
+            {
+              "property": "E_g",
+              "name": "Bulk Bandgap",
+              "unit": "eV",
+              "data": [
+                {
+                  "ref": "DongCSR2012",
+                  "unit": "eV",
+                  "value": 1.7
+                }
+              ]
+            },
+            {
+              "property": "chi_A",
+              "name": "Electronic Affinity",
+              "unit": "eV",
+              "data": [
+                {
+                  "ref": "DongCSR2012",
+                  "unit": "eV",
+                  "value": -4.3
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "material": "PC71BM",
+          "kind": "acceptor",
+          "properties": [
+            {
+              "property": "E_g",
+              "name": "Bulk Bandgap",
+              "unit": "eV",
+              "data": [
+                {
+                  "ref": "DongCSR2012",
+                  "unit": "eV",
+                  "value": 2.1
+                }
+              ]
+            },
+            {
+              "property": "chi_A",
+              "name": "Electronic Affinity",
+              "unit": "eV",
+              "data": [
+                {
+                  "ref": "DongCSR2012",
+                  "unit": "eV",
+                  "value": -3.9
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "material": "ICBA",
+          "kind": "acceptor",
+          "properties": [
+            {
+              "property": "E_g",
+              "name": "Bulk Bandgap",
+              "unit": "eV",
+              "data": [
+                {
+                  "ref": "DongCSR2012",
+                  "unit": "eV",
+                  "value": 2.76
+                }
+              ]
+            },
+            {
+              "property": "chi_A",
+              "name": "Electronic Affinity",
+              "unit": "eV",
+              "data": [
+                {
+                  "ref": "DongCSR2012",
+                  "unit": "eV",
+                  "value": -3.74
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "material": "P3HT",
+          "kind": "donor",
+          "properties": [
+            {
+              "property": "E_g",
+              "name": "Bulk Bandgap",
+              "unit": "eV",
+              "data": [
+                {
+                  "ref": "DongCSR2012",
+                  "unit": "eV",
+                  "value": 2.02
+                },
+                {
+                  "ref": "ChouAPL2007",
+                  "unit": "eV",
+                  "value": 2
+                },
+                {
+                  "ref": "WenqingJPDAP2012",
+                  "unit": "eV",
+                  "value": 2.1
+                },
+                {
+                  "ref": "SpadaforaNL2010",
+                  "unit": "eV",
+                  "value": 1.9
+                }
+              ]
+            },
+            {
+              "property": "chi_A",
+              "name": "Electronic Affinity",
+              "unit": "eV",
+              "data": [
+                {
+                  "ref": "DongCSR2012",
+                  "unit": "eV",
+                  "value": -2.74
+                },
+                {
+                  "ref": "ChouAPL2007",
+                  "unit": "eV",
+                  "value": -2.68
+                },
+                {
+                  "ref": "WenqingJPDAP2012",
+                  "unit": "eV",
+                  "value": -2.7
+                },
+                {
+                  "ref": "SpadaforaNL2010",
+                  "unit": "eV",
+                  "value": -3
+                },
+                {
+                  "ref": "KimAM2006",
+                  "unit": "eV",
+                  "value": -3.3
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "material": "PCPDTBT",
+          "kind": "donor",
+          "properties": [
+            {
+              "property": "E_g",
+              "name": "Bulk Bandgap",
+              "unit": "eV",
+              "data": [
+                {
+                  "ref": "DongCSR2012",
+                  "unit": "eV",
+                  "value": 1.75
+                }
+              ]
+            },
+            {
+              "property": "chi_A",
+              "name": "Electronic Affinity",
+              "unit": "eV",
+              "data": [
+                {
+                  "ref": "DongCSR2012",
+                  "unit": "eV",
+                  "value": -3.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "material": "PCDTBT",
+          "kind": "donor",
+          "properties": [
+            {
+              "property": "E_g",
+              "name": "Bulk Bandgap",
+              "unit": "eV",
+              "data": [
+                {
+                  "ref": "DongCSR2012",
+                  "unit": "eV",
+                  "value": 1.9
+                }
+              ]
+            },
+            {
+              "property": "chi_A",
+              "name": "Electronic Affinity",
+              "unit": "eV",
+              "data": [
+                {
+                  "ref": "DongCSR2012",
+                  "unit": "eV",
+                  "value": -3.6
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "material": "PSiFDTBT",
+          "kind": "donor",
+          "properties": [
+            {
+              "property": "E_g",
+              "name": "Bulk Bandgap",
+              "unit": "eV",
+              "data": [
+                {
+                  "ref": "DongCSR2012",
+                  "unit": "eV",
+                  "value": 1.82
+                }
+              ]
+            },
+            {
+              "property": "chi_A",
+              "name": "Electronic Affinity",
+              "unit": "eV",
+              "data": [
+                {
+                  "ref": "DongCSR2012",
+                  "unit": "eV",
+                  "value": -3.57
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "material": "PSBTBT",
+          "kind": "donor",
+          "properties": [
+            {
+              "property": "E_g",
+              "name": "Bulk Bandgap",
+              "unit": "eV",
+              "data": [
+                {
+                  "ref": "DongCSR2012",
+                  "unit": "eV",
+                  "value": 1.78
+                }
+              ]
+            },
+            {
+              "property": "chi_A",
+              "name": "Electronic Affinity",
+              "unit": "eV",
+              "data": [
+                {
+                  "ref": "DongCSR2012",
+                  "unit": "eV",
+                  "value": -3.27
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "material": "PBnDT-DTBT",
+          "kind": "donor",
+          "properties": [
+            {
+              "property": "E_g",
+              "name": "Bulk Bandgap",
+              "unit": "eV",
+              "data": [
+                {
+                  "ref": "DongCSR2012",
+                  "unit": "eV",
+                  "value": 2.27
+                }
+              ]
+            },
+            {
+              "property": "chi_A",
+              "name": "Electronic Affinity",
+              "unit": "eV",
+              "data": [
+                {
+                  "ref": "DongCSR2012",
+                  "unit": "eV",
+                  "value": -3.13
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "material": "PBnDT-DTffBT",
+          "kind": "donor",
+          "properties": [
+            {
+              "property": "E_g",
+              "name": "Bulk Bandgap",
+              "unit": "eV",
+              "data": [
+                {
+                  "ref": "DongCSR2012",
+                  "unit": "eV",
+                  "value": 2.21
+                }
+              ]
+            },
+            {
+              "property": "chi_A",
+              "name": "Electronic Affinity",
+              "unit": "eV",
+              "data": [
+                {
+                  "ref": "DongCSR2012",
+                  "unit": "eV",
+                  "value": -3.33
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "material": "P1",
+          "kind": "donor",
+          "properties": [
+            {
+              "property": "E_g",
+              "name": "Bulk Bandgap",
+              "unit": "eV",
+              "data": [
+                {
+                  "ref": "DongCSR2012",
+                  "unit": "eV",
+                  "value": 1.7
+                }
+              ]
+            },
+            {
+              "property": "chi_A",
+              "name": "Electronic Affinity",
+              "unit": "eV",
+              "data": [
+                {
+                  "ref": "DongCSR2012",
+                  "unit": "eV",
+                  "value": -3.78
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "material": "P2",
+          "kind": "donor",
+          "properties": [
+            {
+              "property": "E_g",
+              "name": "Bulk Bandgap",
+              "unit": "eV",
+              "data": [
+                {
+                  "ref": "DongCSR2012",
+                  "unit": "eV",
+                  "value": 1.7
+                }
+              ]
+            },
+            {
+              "property": "chi_A",
+              "name": "Electronic Affinity",
+              "unit": "eV",
+              "data": [
+                {
+                  "ref": "DongCSR2012",
+                  "unit": "eV",
+                  "value": -3.87
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "material": "P3",
+          "kind": "donor",
+          "properties": [
+            {
+              "property": "E_g",
+              "name": "Bulk Bandgap",
+              "unit": "eV",
+              "data": [
+                {
+                  "ref": "DongCSR2012",
+                  "unit": "eV",
+                  "value": 1.7
+                }
+              ]
+            },
+            {
+              "property": "chi_A",
+              "name": "Electronic Affinity",
+              "unit": "eV",
+              "data": [
+                {
+                  "ref": "DongCSR2012",
+                  "unit": "eV",
+                  "value": -3.7
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "material": "P4",
+          "kind": "donor",
+          "properties": [
+            {
+              "property": "E_g",
+              "name": "Bulk Bandgap",
+              "unit": "eV",
+              "data": [
+                {
+                  "ref": "DongCSR2012",
+                  "unit": "eV",
+                  "value": 2.1
+                }
+              ]
+            },
+            {
+              "property": "chi_A",
+              "name": "Electronic Affinity",
+              "unit": "eV",
+              "data": [
+                {
+                  "ref": "DongCSR2012",
+                  "unit": "eV",
+                  "value": -3.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "material": "P5",
+          "kind": "donor",
+          "properties": [
+            {
+              "property": "E_g",
+              "name": "Bulk Bandgap",
+              "unit": "eV",
+              "data": [
+                {
+                  "ref": "DongCSR2012",
+                  "unit": "eV",
+                  "value": 2.15
+                }
+              ]
+            },
+            {
+              "property": "chi_A",
+              "name": "Electronic Affinity",
+              "unit": "eV",
+              "data": [
+                {
+                  "ref": "DongCSR2012",
+                  "unit": "eV",
+                  "value": -3.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "material": "PDPP3T",
+          "kind": "donor",
+          "properties": [
+            {
+              "property": "E_g",
+              "name": "Bulk Bandgap",
+              "unit": "eV",
+              "data": [
+                {
+                  "ref": "DongCSR2012",
+                  "unit": "eV",
+                  "value": 1.56
+                }
+              ]
+            },
+            {
+              "property": "chi_A",
+              "name": "Electronic Affinity",
+              "unit": "eV",
+              "data": [
+                {
+                  "ref": "DongCSR2012",
+                  "unit": "eV",
+                  "value": -3.61
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "material": "PDPP2FT",
+          "kind": "donor",
+          "properties": [
+            {
+              "property": "E_g",
+              "name": "Bulk Bandgap",
+              "unit": "eV",
+              "data": [
+                {
+                  "ref": "DongCSR2012",
+                  "unit": "eV",
+                  "value": 1.6
+                }
+              ]
+            },
+            {
+              "property": "chi_A",
+              "name": "Electronic Affinity",
+              "unit": "eV",
+              "data": [
+                {
+                  "ref": "DongCSR2012",
+                  "unit": "eV",
+                  "value": -3.8
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "material": "PDPP3F",
+          "kind": "donor",
+          "properties": [
+            {
+              "property": "E_g",
+              "name": "Bulk Bandgap",
+              "unit": "eV",
+              "data": [
+                {
+                  "ref": "DongCSR2012",
+                  "unit": "eV",
+                  "value": 1.7
+                }
+              ]
+            },
+            {
+              "property": "chi_A",
+              "name": "Electronic Affinity",
+              "unit": "eV",
+              "data": [
+                {
+                  "ref": "DongCSR2012",
+                  "unit": "eV",
+                  "value": -3.8
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "material": "PTB1",
+          "kind": "donor",
+          "properties": [
+            {
+              "property": "E_g",
+              "name": "Bulk Bandgap",
+              "unit": "eV",
+              "data": [
+                {
+                  "ref": "DongCSR2012",
+                  "unit": "eV",
+                  "value": 1.7
+                }
+              ]
+            },
+            {
+              "property": "chi_A",
+              "name": "Electronic Affinity",
+              "unit": "eV",
+              "data": [
+                {
+                  "ref": "DongCSR2012",
+                  "unit": "eV",
+                  "value": -3.2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "material": "PTB7",
+          "kind": "donor",
+          "properties": [
+            {
+              "property": "E_g",
+              "name": "Bulk Bandgap",
+              "unit": "eV",
+              "data": [
+                {
+                  "ref": "DongCSR2012",
+                  "unit": "eV",
+                  "value": 1.78
+                },
+                {
+                  "ref": "LiangAM2010",
+                  "unit": "eV",
+                  "value": 1.84
+                }
+              ]
+            },
+            {
+              "property": "chi_A",
+              "name": "Electronic Affinity",
+              "unit": "eV",
+              "data": [
+                {
+                  "ref": "DongCSR2012",
+                  "unit": "eV",
+                  "value": -3.37
+                },
+                {
+                  "ref": "LiangAM2010",
+                  "unit": "eV",
+                  "value": -3.31
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "material": "PTAT",
+          "kind": "donor",
+          "properties": [
+            {
+              "property": "E_g",
+              "name": "Bulk Bandgap",
+              "unit": "eV",
+              "data": [
+                {
+                  "ref": "DongCSR2012",
+                  "unit": "eV",
+                  "value": 1.78
+                }
+              ]
+            },
+            {
+              "property": "chi_A",
+              "name": "Electronic Affinity",
+              "unit": "eV",
+              "data": [
+                {
+                  "ref": "DongCSR2012",
+                  "unit": "eV",
+                  "value": -3.3
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "material": "PCDTTz",
+          "kind": "donor",
+          "properties": [
+            {
+              "property": "E_g",
+              "name": "Bulk Bandgap",
+              "unit": "eV",
+              "data": [
+                {
+                  "ref": "DongCSR2012",
+                  "unit": "eV",
+                  "value": 2.07
+                }
+              ]
+            },
+            {
+              "property": "chi_A",
+              "name": "Electronic Affinity",
+              "unit": "eV",
+              "data": [
+                {
+                  "ref": "DongCSR2012",
+                  "unit": "eV",
+                  "value": -3.24
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "material": "PDTSTTz",
+          "kind": "donor",
+          "properties": [
+            {
+              "property": "E_g",
+              "name": "Bulk Bandgap",
+              "unit": "eV",
+              "data": [
+                {
+                  "ref": "DongCSR2012",
+                  "unit": "eV",
+                  "value": 2.25
+                }
+              ]
+            },
+            {
+              "property": "chi_A",
+              "name": "Electronic Affinity",
+              "unit": "eV",
+              "data": [
+                {
+                  "ref": "DongCSR2012",
+                  "unit": "eV",
+                  "value": -2.81
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "material": "PECz-DTQx",
+          "kind": "donor",
+          "properties": [
+            {
+              "property": "E_g",
+              "name": "Bulk Bandgap",
+              "unit": "eV",
+              "data": [
+                {
+                  "ref": "DongCSR2012",
+                  "unit": "eV",
+                  "value": 1.7
+                }
+              ]
+            },
+            {
+              "property": "chi_A",
+              "name": "Electronic Affinity",
+              "unit": "eV",
+              "data": [
+                {
+                  "ref": "DongCSR2012",
+                  "unit": "eV",
+                  "value": -3.45
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "material": "PBDT-DTNT",
+          "kind": "donor",
+          "properties": [
+            {
+              "property": "E_g",
+              "name": "Bulk Bandgap",
+              "unit": "eV",
+              "data": [
+                {
+                  "ref": "DongCSR2012",
+                  "unit": "eV",
+                  "value": 1.93
+                }
+              ]
+            },
+            {
+              "property": "chi_A",
+              "name": "Electronic Affinity",
+              "unit": "eV",
+              "data": [
+                {
+                  "ref": "DongCSR2012",
+                  "unit": "eV",
+                  "value": -3.26
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

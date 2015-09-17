@@ -1,0 +1,10 @@
+
+#mainContainer {
+	/*display:block;*/
+	margin: 4em auto;
+	padding: 10px 10px;
+	right: 50%;
+	width:90%;
+	max-width: 955px;
+	font-size: 20px;
+}
