@@ -33,7 +33,12 @@ function list(material){
     // $('.button').cssCollapse();
     var new_id = "graph"+property["symbol"]
     // alert(new_id);
-    var newDiv = '<div><h3>'+property['name']+' - <b>'+symbol+' = '+mean.toString()+' \xB1 '+std.toString()+' '+unit+'</b></h3><span id="'+new_id+'" class="graph"><p id="'+new_id+'bibitem" class="bibentry"></p></span></div>';
+    if (std.toString() == "NaN"){
+      var newDiv = '<div><h3>'+property['name']+' - <b>'+symbol+' = '+mean.toString()+' '+unit+'</b></h3><span id="'+new_id+'" class="graph"><p id="'+new_id+'bibitem" class="bibentry"></p></span></div>';
+    }
+    else{
+      var newDiv = '<div><h3>'+property['name']+' - <b>'+symbol+' = '+mean.toString()+' \xB1 '+std.toString()+' '+unit+'</b></h3><span id="'+new_id+'" class="graph"><p id="'+new_id+'bibitem" class="bibentry"></p></span></div>';   
+    }
     $('.properties_list').append(newDiv)
     // $('.properties_list').accordion({active:'false'});
   // draw(index);

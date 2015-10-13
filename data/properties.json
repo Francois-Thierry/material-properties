@@ -1333,5 +1333,1430 @@
         ]
       }
     ]
+  },
+  {
+    "material": "C12Por",
+    "type": "small molecule donor",
+    "properties": [
+      {
+        "symbol": "E_g",
+        "name": "Bulk Bandgap",
+        "unit": "eV",
+        "data": [
+          {
+            "ref": "DongCSR2012",
+            "unit": "eV",
+            "value": 2.1
+          }
+        ]
+      },
+      {
+        "symbol": "chi_A",
+        "name": "Electronic Affinity",
+        "unit": "eV",
+        "data": [
+          {
+            "ref": "DongCSR2012",
+            "unit": "eV",
+            "value": -3.3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "material": "CuPc",
+    "type": "small molecule donor",
+    "properties": [
+      {
+        "symbol": "E_g",
+        "name": "Bulk Bandgap",
+        "unit": "eV",
+        "data": [
+          {
+            "ref": "DongCSR2012",
+            "unit": "eV",
+            "value": 1.7
+          }
+        ]
+      },
+      {
+        "symbol": "chi_A",
+        "name": "Electronic Affinity",
+        "unit": "eV",
+        "data": [
+          {
+            "ref": "DongCSR2012",
+            "unit": "eV",
+            "value": -3.5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "material": "pentacene",
+    "type": "small molecule donor",
+    "properties": [
+      {
+        "symbol": "E_g",
+        "name": "Bulk Bandgap",
+        "unit": "eV",
+        "data": [
+          {
+            "ref": "DongCSR2012",
+            "unit": "eV",
+            "value": 1.9
+          }
+        ]
+      },
+      {
+        "symbol": "chi_A",
+        "name": "Electronic Affinity",
+        "unit": "eV",
+        "data": [
+          {
+            "ref": "DongCSR2012",
+            "unit": "eV",
+            "value": -3.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "material": "HBC-PHC12",
+    "type": "small molecule donor",
+    "properties": [
+      {
+        "symbol": "E_g",
+        "name": "Bulk Bandgap",
+        "unit": "eV",
+        "data": [
+          {
+            "ref": "DongCSR2012",
+            "unit": "eV",
+            "value": 2.61
+          }
+        ]
+      },
+      {
+        "symbol": "chi_A",
+        "name": "Electronic Affinity",
+        "unit": "eV",
+        "data": [
+          {
+            "ref": "DongCSR2012",
+            "unit": "eV",
+            "value": -2.64
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "material": "A-P6t",
+    "type": "small molecule donor",
+    "properties": [
+      {
+        "symbol": "E_g",
+        "name": "Bulk Bandgap",
+        "unit": "eV",
+        "data": [
+          {
+            "ref": "DongCSR2012",
+            "unit": "eV",
+            "value": 2.53
+          }
+        ]
+      },
+      {
+        "symbol": "chi_A",
+        "name": "Electronic Affinity",
+        "unit": "eV",
+        "data": [
+          {
+            "ref": "DongCSR2012",
+            "unit": "eV",
+            "value": -2.98
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "material": "M1",
+    "type": "small molecule donor",
+    "properties": [
+      {
+        "symbol": "E_g",
+        "name": "Bulk Bandgap",
+        "unit": "eV",
+        "data": [
+          {
+            "ref": "DongCSR2012",
+            "unit": "eV",
+            "value": 2.43
+          }
+        ]
+      },
+      {
+        "symbol": "chi_A",
+        "name": "Electronic Affinity",
+        "unit": "eV",
+        "data": [
+          {
+            "ref": "DongCSR2012",
+            "unit": "eV",
+            "value": -2.6
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "material": "DBC",
+    "type": "small molecule donor",
+    "properties": [
+      {
+        "symbol": "E_g",
+        "name": "Bulk Bandgap",
+        "unit": "eV",
+        "data": [
+          {
+            "ref": "DongCSR2012",
+            "unit": "eV",
+            "value": 2.2
+          }
+        ]
+      },
+      {
+        "symbol": "chi_A",
+        "name": "Electronic Affinity",
+        "unit": "eV",
+        "data": [
+          {
+            "ref": "DongCSR2012",
+            "unit": "eV",
+            "value": -2.9
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "material": "M5",
+    "type": "small molecule donor",
+    "properties": [
+      {
+        "symbol": "E_g",
+        "name": "Bulk Bandgap",
+        "unit": "eV",
+        "data": [
+          {
+            "ref": "DongCSR2012",
+            "unit": "eV",
+            "value": 3.39
+          }
+        ]
+      },
+      {
+        "symbol": "chi_A",
+        "name": "Electronic Affinity",
+        "unit": "eV",
+        "data": [
+          {
+            "ref": "DongCSR2012",
+            "unit": "eV",
+            "value": -2.18
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "material": "M6",
+    "type": "small molecule donor",
+    "properties": [
+      {
+        "symbol": "E_g",
+        "name": "Bulk Bandgap",
+        "unit": "eV",
+        "data": [
+          {
+            "ref": "DongCSR2012",
+            "unit": "eV",
+            "value": 3.39
+          }
+        ]
+      },
+      {
+        "symbol": "chi_A",
+        "name": "Electronic Affinity",
+        "unit": "eV",
+        "data": [
+          {
+            "ref": "DongCSR2012",
+            "unit": "eV",
+            "value": -2.66
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "material": "M8",
+    "type": "small molecule donor",
+    "properties": [
+      {
+        "symbol": "E_g",
+        "name": "Bulk Bandgap",
+        "unit": "eV",
+        "data": [
+          {
+            "ref": "DongCSR2012",
+            "unit": "eV",
+            "value": 3.39
+          }
+        ]
+      },
+      {
+        "symbol": "chi_A",
+        "name": "Electronic Affinity",
+        "unit": "eV",
+        "data": [
+          {
+            "ref": "DongCSR2012",
+            "unit": "eV",
+            "value": -3.07
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "material": "alpha-DH6TDPP",
+    "type": "small molecule donor",
+    "properties": [
+      {
+        "symbol": "E_g",
+        "name": "Bulk Bandgap",
+        "unit": "eV",
+        "data": [
+          {
+            "ref": "DongCSR2012",
+            "unit": "eV",
+            "value": 2.03
+          }
+        ]
+      },
+      {
+        "symbol": "chi_A",
+        "name": "Electronic Affinity",
+        "unit": "eV",
+        "data": [
+          {
+            "ref": "DongCSR2012",
+            "unit": "eV",
+            "value": -3.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "material": "SMDPPEH",
+    "type": "small molecule donor",
+    "properties": [
+      {
+        "symbol": "E_g",
+        "name": "Bulk Bandgap",
+        "unit": "eV",
+        "data": [
+          {
+            "ref": "DongCSR2012",
+            "unit": "eV",
+            "value": 1.5
+          }
+        ]
+      },
+      {
+        "symbol": "chi_A",
+        "name": "Electronic Affinity",
+        "unit": "eV",
+        "data": [
+          {
+            "ref": "DongCSR2012",
+            "unit": "eV",
+            "value": -3.7
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "material": "DPP(TBFu)2",
+    "type": "small molecule donor",
+    "properties": [
+      {
+        "symbol": "E_g",
+        "name": "Bulk Bandgap",
+        "unit": "eV",
+        "data": [
+          {
+            "ref": "DongCSR2012",
+            "unit": "eV",
+            "value": 1.7
+          }
+        ]
+      },
+      {
+        "symbol": "chi_A",
+        "name": "Electronic Affinity",
+        "unit": "eV",
+        "data": [
+          {
+            "ref": "DongCSR2012",
+            "unit": "eV",
+            "value": -3.4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "material": "PhNOF-OT-DCN",
+    "type": "small molecule donor",
+    "properties": [
+      {
+        "symbol": "E_g",
+        "name": "Bulk Bandgap",
+        "unit": "eV",
+        "data": [
+          {
+            "ref": "DongCSR2012",
+            "unit": "eV",
+            "value": 1.9
+          }
+        ]
+      },
+      {
+        "symbol": "chi_A",
+        "name": "Electronic Affinity",
+        "unit": "eV",
+        "data": [
+          {
+            "ref": "DongCSR2012",
+            "unit": "eV",
+            "value": -3.3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "material": "BTDA3T",
+    "type": "small molecule donor",
+    "properties": [
+      {
+        "symbol": "E_g",
+        "name": "Bulk Bandgap",
+        "unit": "eV",
+        "data": [
+          {
+            "ref": "DongCSR2012",
+            "unit": "eV",
+            "value": 2.16
+          }
+        ]
+      },
+      {
+        "symbol": "chi_A",
+        "name": "Electronic Affinity",
+        "unit": "eV",
+        "data": [
+          {
+            "ref": "DongCSR2012",
+            "unit": "eV",
+            "value": -3.34
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "material": "TDAPy3T",
+    "type": "small molecule donor",
+    "properties": [
+      {
+        "symbol": "E_g",
+        "name": "Bulk Bandgap",
+        "unit": "eV",
+        "data": [
+          {
+            "ref": "DongCSR2012",
+            "unit": "eV",
+            "value": 2.01
+          }
+        ]
+      },
+      {
+        "symbol": "chi_A",
+        "name": "Electronic Affinity",
+        "unit": "eV",
+        "data": [
+          {
+            "ref": "DongCSR2012",
+            "unit": "eV",
+            "value": -3.64
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "material": "DCV1T",
+    "type": "small molecule donor",
+    "properties": [
+      {
+        "symbol": "E_g",
+        "name": "Bulk Bandgap",
+        "unit": "eV",
+        "data": [
+          {
+            "ref": "DongCSR2012",
+            "unit": "eV",
+            "value": 2.78
+          }
+        ]
+      },
+      {
+        "symbol": "chi_A",
+        "name": "Electronic Affinity",
+        "unit": "eV",
+        "data": [
+          {
+            "ref": "DongCSR2012",
+            "unit": "eV",
+            "value": -4.3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "material": "DCV4T",
+    "type": "small molecule donor",
+    "properties": [
+      {
+        "symbol": "E_g",
+        "name": "Bulk Bandgap",
+        "unit": "eV",
+        "data": [
+          {
+            "ref": "DongCSR2012",
+            "unit": "eV",
+            "value": 1.89
+          }
+        ]
+      },
+      {
+        "symbol": "chi_A",
+        "name": "Electronic Affinity",
+        "unit": "eV",
+        "data": [
+          {
+            "ref": "DongCSR2012",
+            "unit": "eV",
+            "value": -3.87
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "material": "DCV7T",
+    "type": "small molecule donor",
+    "properties": [
+      {
+        "symbol": "E_g",
+        "name": "Bulk Bandgap",
+        "unit": "eV",
+        "data": [
+          {
+            "ref": "DongCSR2012",
+            "unit": "eV",
+            "value": 1.7
+          }
+        ]
+      },
+      {
+        "symbol": "chi_A",
+        "name": "Electronic Affinity",
+        "unit": "eV",
+        "data": [
+          {
+            "ref": "DongCSR2012",
+            "unit": "eV",
+            "value": -3.4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "material": "EPPTC",
+    "type": "acceptor",
+    "properties": [
+      {
+        "symbol": "E_g",
+        "name": "Bulk Bandgap",
+        "unit": "eV",
+        "data": [
+          {
+            "ref": "DongCSR2012",
+            "unit": "eV",
+            "value": 2.03
+          }
+        ]
+      },
+      {
+        "symbol": "chi_A",
+        "name": "Electronic Affinity",
+        "unit": "eV",
+        "data": [
+          {
+            "ref": "DongCSR2012",
+            "unit": "eV",
+            "value": -3.29
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "material": "C60",
+    "type": "acceptor",
+    "properties": [
+      {
+        "symbol": "E_g",
+        "name": "Bulk Bandgap",
+        "unit": "eV",
+        "data": [
+          {
+            "ref": "DongCSR2012",
+            "unit": "eV",
+            "value": 1.7
+          }
+        ]
+      },
+      {
+        "symbol": "chi_A",
+        "name": "Electronic Affinity",
+        "unit": "eV",
+        "data": [
+          {
+            "ref": "DongCSR2012",
+            "unit": "eV",
+            "value": -4.5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "material": "PCBM",
+    "type": "acceptor",
+    "properties": [
+      {
+        "symbol": "E_g",
+        "name": "Bulk Bandgap",
+        "unit": "eV",
+        "data": [
+          {
+            "ref": "DongCSR2012",
+            "unit": "eV",
+            "value": 1.7
+          }
+        ]
+      },
+      {
+        "symbol": "chi_A",
+        "name": "Electronic Affinity",
+        "unit": "eV",
+        "data": [
+          {
+            "ref": "DongCSR2012",
+            "unit": "eV",
+            "value": -4.3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "material": "PC71BM",
+    "type": "acceptor",
+    "properties": [
+      {
+        "symbol": "E_g",
+        "name": "Bulk Bandgap",
+        "unit": "eV",
+        "data": [
+          {
+            "ref": "DongCSR2012",
+            "unit": "eV",
+            "value": 2.1
+          }
+        ]
+      },
+      {
+        "symbol": "chi_A",
+        "name": "Electronic Affinity",
+        "unit": "eV",
+        "data": [
+          {
+            "ref": "DongCSR2012",
+            "unit": "eV",
+            "value": -3.9
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "material": "ICBA",
+    "type": "acceptor",
+    "properties": [
+      {
+        "symbol": "E_g",
+        "name": "Bulk Bandgap",
+        "unit": "eV",
+        "data": [
+          {
+            "ref": "DongCSR2012",
+            "unit": "eV",
+            "value": 2.76
+          }
+        ]
+      },
+      {
+        "symbol": "chi_A",
+        "name": "Electronic Affinity",
+        "unit": "eV",
+        "data": [
+          {
+            "ref": "DongCSR2012",
+            "unit": "eV",
+            "value": -3.74
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "material": "P3HT",
+    "type": "donor",
+    "properties": [
+      {
+        "symbol": "E_g",
+        "name": "Bulk Bandgap",
+        "unit": "eV",
+        "data": [
+          {
+            "ref": "DongCSR2012",
+            "unit": "eV",
+            "value": 2.02
+          },
+          {
+            "ref": "ChouAPL2007",
+            "unit": "eV",
+            "value": 2
+          },
+          {
+            "ref": "WenqingJPDAP2012",
+            "unit": "eV",
+            "value": 2.1
+          },
+          {
+            "ref": "SpadaforaNL2010",
+            "unit": "eV",
+            "value": 1.9
+          }
+        ]
+      },
+      {
+        "symbol": "chi_A",
+        "name": "Electronic Affinity",
+        "unit": "eV",
+        "data": [
+          {
+            "ref": "DongCSR2012",
+            "unit": "eV",
+            "value": -2.74
+          },
+          {
+            "ref": "ChouAPL2007",
+            "unit": "eV",
+            "value": -2.68
+          },
+          {
+            "ref": "WenqingJPDAP2012",
+            "unit": "eV",
+            "value": -2.7
+          },
+          {
+            "ref": "SpadaforaNL2010",
+            "unit": "eV",
+            "value": -3
+          },
+          {
+            "ref": "KimAM2006",
+            "unit": "eV",
+            "value": -3.3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "material": "PCPDTBT",
+    "type": "donor",
+    "properties": [
+      {
+        "symbol": "E_g",
+        "name": "Bulk Bandgap",
+        "unit": "eV",
+        "data": [
+          {
+            "ref": "DongCSR2012",
+            "unit": "eV",
+            "value": 1.75
+          }
+        ]
+      },
+      {
+        "symbol": "chi_A",
+        "name": "Electronic Affinity",
+        "unit": "eV",
+        "data": [
+          {
+            "ref": "DongCSR2012",
+            "unit": "eV",
+            "value": -3.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "material": "PCDTBT",
+    "type": "donor",
+    "properties": [
+      {
+        "symbol": "E_g",
+        "name": "Bulk Bandgap",
+        "unit": "eV",
+        "data": [
+          {
+            "ref": "DongCSR2012",
+            "unit": "eV",
+            "value": 1.9
+          }
+        ]
+      },
+      {
+        "symbol": "chi_A",
+        "name": "Electronic Affinity",
+        "unit": "eV",
+        "data": [
+          {
+            "ref": "DongCSR2012",
+            "unit": "eV",
+            "value": -3.6
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "material": "PSiFDTBT",
+    "type": "donor",
+    "properties": [
+      {
+        "symbol": "E_g",
+        "name": "Bulk Bandgap",
+        "unit": "eV",
+        "data": [
+          {
+            "ref": "DongCSR2012",
+            "unit": "eV",
+            "value": 1.82
+          }
+        ]
+      },
+      {
+        "symbol": "chi_A",
+        "name": "Electronic Affinity",
+        "unit": "eV",
+        "data": [
+          {
+            "ref": "DongCSR2012",
+            "unit": "eV",
+            "value": -3.57
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "material": "PSBTBT",
+    "type": "donor",
+    "properties": [
+      {
+        "symbol": "E_g",
+        "name": "Bulk Bandgap",
+        "unit": "eV",
+        "data": [
+          {
+            "ref": "DongCSR2012",
+            "unit": "eV",
+            "value": 1.78
+          }
+        ]
+      },
+      {
+        "symbol": "chi_A",
+        "name": "Electronic Affinity",
+        "unit": "eV",
+        "data": [
+          {
+            "ref": "DongCSR2012",
+            "unit": "eV",
+            "value": -3.27
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "material": "PBnDT-DTBT",
+    "type": "donor",
+    "properties": [
+      {
+        "symbol": "E_g",
+        "name": "Bulk Bandgap",
+        "unit": "eV",
+        "data": [
+          {
+            "ref": "DongCSR2012",
+            "unit": "eV",
+            "value": 2.27
+          }
+        ]
+      },
+      {
+        "symbol": "chi_A",
+        "name": "Electronic Affinity",
+        "unit": "eV",
+        "data": [
+          {
+            "ref": "DongCSR2012",
+            "unit": "eV",
+            "value": -3.13
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "material": "PBnDT-DTffBT",
+    "type": "donor",
+    "properties": [
+      {
+        "symbol": "E_g",
+        "name": "Bulk Bandgap",
+        "unit": "eV",
+        "data": [
+          {
+            "ref": "DongCSR2012",
+            "unit": "eV",
+            "value": 2.21
+          }
+        ]
+      },
+      {
+        "symbol": "chi_A",
+        "name": "Electronic Affinity",
+        "unit": "eV",
+        "data": [
+          {
+            "ref": "DongCSR2012",
+            "unit": "eV",
+            "value": -3.33
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "material": "P1",
+    "type": "donor",
+    "properties": [
+      {
+        "symbol": "E_g",
+        "name": "Bulk Bandgap",
+        "unit": "eV",
+        "data": [
+          {
+            "ref": "DongCSR2012",
+            "unit": "eV",
+            "value": 1.7
+          }
+        ]
+      },
+      {
+        "symbol": "chi_A",
+        "name": "Electronic Affinity",
+        "unit": "eV",
+        "data": [
+          {
+            "ref": "DongCSR2012",
+            "unit": "eV",
+            "value": -3.78
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "material": "P2",
+    "type": "donor",
+    "properties": [
+      {
+        "symbol": "E_g",
+        "name": "Bulk Bandgap",
+        "unit": "eV",
+        "data": [
+          {
+            "ref": "DongCSR2012",
+            "unit": "eV",
+            "value": 1.7
+          }
+        ]
+      },
+      {
+        "symbol": "chi_A",
+        "name": "Electronic Affinity",
+        "unit": "eV",
+        "data": [
+          {
+            "ref": "DongCSR2012",
+            "unit": "eV",
+            "value": -3.87
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "material": "P3",
+    "type": "donor",
+    "properties": [
+      {
+        "symbol": "E_g",
+        "name": "Bulk Bandgap",
+        "unit": "eV",
+        "data": [
+          {
+            "ref": "DongCSR2012",
+            "unit": "eV",
+            "value": 1.7
+          }
+        ]
+      },
+      {
+        "symbol": "chi_A",
+        "name": "Electronic Affinity",
+        "unit": "eV",
+        "data": [
+          {
+            "ref": "DongCSR2012",
+            "unit": "eV",
+            "value": -3.7
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "material": "P4",
+    "type": "donor",
+    "properties": [
+      {
+        "symbol": "E_g",
+        "name": "Bulk Bandgap",
+        "unit": "eV",
+        "data": [
+          {
+            "ref": "DongCSR2012",
+            "unit": "eV",
+            "value": 2.1
+          }
+        ]
+      },
+      {
+        "symbol": "chi_A",
+        "name": "Electronic Affinity",
+        "unit": "eV",
+        "data": [
+          {
+            "ref": "DongCSR2012",
+            "unit": "eV",
+            "value": -3.5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "material": "P5",
+    "type": "donor",
+    "properties": [
+      {
+        "symbol": "E_g",
+        "name": "Bulk Bandgap",
+        "unit": "eV",
+        "data": [
+          {
+            "ref": "DongCSR2012",
+            "unit": "eV",
+            "value": 2.15
+          }
+        ]
+      },
+      {
+        "symbol": "chi_A",
+        "name": "Electronic Affinity",
+        "unit": "eV",
+        "data": [
+          {
+            "ref": "DongCSR2012",
+            "unit": "eV",
+            "value": -3.5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "material": "PDPP3T",
+    "type": "donor",
+    "properties": [
+      {
+        "symbol": "E_g",
+        "name": "Bulk Bandgap",
+        "unit": "eV",
+        "data": [
+          {
+            "ref": "DongCSR2012",
+            "unit": "eV",
+            "value": 1.56
+          }
+        ]
+      },
+      {
+        "symbol": "chi_A",
+        "name": "Electronic Affinity",
+        "unit": "eV",
+        "data": [
+          {
+            "ref": "DongCSR2012",
+            "unit": "eV",
+            "value": -3.61
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "material": "PDPP2FT",
+    "type": "donor",
+    "properties": [
+      {
+        "symbol": "E_g",
+        "name": "Bulk Bandgap",
+        "unit": "eV",
+        "data": [
+          {
+            "ref": "DongCSR2012",
+            "unit": "eV",
+            "value": 1.6
+          }
+        ]
+      },
+      {
+        "symbol": "chi_A",
+        "name": "Electronic Affinity",
+        "unit": "eV",
+        "data": [
+          {
+            "ref": "DongCSR2012",
+            "unit": "eV",
+            "value": -3.8
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "material": "PDPP3F",
+    "type": "donor",
+    "properties": [
+      {
+        "symbol": "E_g",
+        "name": "Bulk Bandgap",
+        "unit": "eV",
+        "data": [
+          {
+            "ref": "DongCSR2012",
+            "unit": "eV",
+            "value": 1.7
+          }
+        ]
+      },
+      {
+        "symbol": "chi_A",
+        "name": "Electronic Affinity",
+        "unit": "eV",
+        "data": [
+          {
+            "ref": "DongCSR2012",
+            "unit": "eV",
+            "value": -3.8
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "material": "PTB1",
+    "type": "donor",
+    "properties": [
+      {
+        "symbol": "E_g",
+        "name": "Bulk Bandgap",
+        "unit": "eV",
+        "data": [
+          {
+            "ref": "DongCSR2012",
+            "unit": "eV",
+            "value": 1.7
+          }
+        ]
+      },
+      {
+        "symbol": "chi_A",
+        "name": "Electronic Affinity",
+        "unit": "eV",
+        "data": [
+          {
+            "ref": "DongCSR2012",
+            "unit": "eV",
+            "value": -3.2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "material": "PTB7",
+    "type": "donor",
+    "properties": [
+      {
+        "symbol": "E_g",
+        "name": "Bulk Bandgap",
+        "unit": "eV",
+        "data": [
+          {
+            "ref": "DongCSR2012",
+            "unit": "eV",
+            "value": 1.78
+          },
+          {
+            "ref": "LiangAM2010",
+            "unit": "eV",
+            "value": 1.84
+          }
+        ]
+      },
+      {
+        "symbol": "chi_A",
+        "name": "Electronic Affinity",
+        "unit": "eV",
+        "data": [
+          {
+            "ref": "DongCSR2012",
+            "unit": "eV",
+            "value": -3.37
+          },
+          {
+            "ref": "LiangAM2010",
+            "unit": "eV",
+            "value": -3.31
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "material": "PTAT",
+    "type": "donor",
+    "properties": [
+      {
+        "symbol": "E_g",
+        "name": "Bulk Bandgap",
+        "unit": "eV",
+        "data": [
+          {
+            "ref": "DongCSR2012",
+            "unit": "eV",
+            "value": 1.78
+          }
+        ]
+      },
+      {
+        "symbol": "chi_A",
+        "name": "Electronic Affinity",
+        "unit": "eV",
+        "data": [
+          {
+            "ref": "DongCSR2012",
+            "unit": "eV",
+            "value": -3.3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "material": "PCDTTz",
+    "type": "donor",
+    "properties": [
+      {
+        "symbol": "E_g",
+        "name": "Bulk Bandgap",
+        "unit": "eV",
+        "data": [
+          {
+            "ref": "DongCSR2012",
+            "unit": "eV",
+            "value": 2.07
+          }
+        ]
+      },
+      {
+        "symbol": "chi_A",
+        "name": "Electronic Affinity",
+        "unit": "eV",
+        "data": [
+          {
+            "ref": "DongCSR2012",
+            "unit": "eV",
+            "value": -3.24
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "material": "PDTSTTz",
+    "type": "donor",
+    "properties": [
+      {
+        "symbol": "E_g",
+        "name": "Bulk Bandgap",
+        "unit": "eV",
+        "data": [
+          {
+            "ref": "DongCSR2012",
+            "unit": "eV",
+            "value": 2.25
+          }
+        ]
+      },
+      {
+        "symbol": "chi_A",
+        "name": "Electronic Affinity",
+        "unit": "eV",
+        "data": [
+          {
+            "ref": "DongCSR2012",
+            "unit": "eV",
+            "value": -2.81
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "material": "PECz-DTQx",
+    "type": "donor",
+    "properties": [
+      {
+        "symbol": "E_g",
+        "name": "Bulk Bandgap",
+        "unit": "eV",
+        "data": [
+          {
+            "ref": "DongCSR2012",
+            "unit": "eV",
+            "value": 1.7
+          }
+        ]
+      },
+      {
+        "symbol": "chi_A",
+        "name": "Electronic Affinity",
+        "unit": "eV",
+        "data": [
+          {
+            "ref": "DongCSR2012",
+            "unit": "eV",
+            "value": -3.45
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "material": "PBDT-DTNT",
+    "type": "donor",
+    "properties": [
+      {
+        "symbol": "E_g",
+        "name": "Bulk Bandgap",
+        "unit": "eV",
+        "data": [
+          {
+            "ref": "DongCSR2012",
+            "unit": "eV",
+            "value": 1.93
+          }
+        ]
+      },
+      {
+        "symbol": "chi_A",
+        "name": "Electronic Affinity",
+        "unit": "eV",
+        "data": [
+          {
+            "ref": "DongCSR2012",
+            "unit": "eV",
+            "value": -3.26
+          }
+        ]
+      }
+    ]
   }
 ]

@@ -88,8 +88,22 @@
 		  	$(selected_graph+"bibitem").html("");
 			// find property
 			property = getObjects(current_material['properties'], 'symbol', symbol)[0];
-		  	// alert(symbol + JSON.stringify(property));
-		    draw();
+      if (property['data'].length > 1){
+        draw();
+        // alert(property['data'].length)
+      }
+      if (property['data'].length == 1){
+        selected_graph = "#graph"+property["symbol"]
+        citation = getObjects(biblio, 'citationKey', property['data'][0]['ref'])[0]["entryTags"];
+
+        bibentry = citation["author"]+"<br/>"
+        bibentry += "<a target='_blank' href='https://dx.doi.org/"+citation["doi"]+"' style='text-decoration:none'><i>"+citation["title"]+"</i></a><br/>"
+        bibentry += citation["journal"]+", "+citation["year"]
+        // alert(bibentry);
+        $(selected_graph).html('<p>'+bibentry+'</p>');
+        // $(selected_graph+"bibitem").html(bibentry);
+        // $('.properties_list').inn(newDiv)
+      }
   		}
 	});
 

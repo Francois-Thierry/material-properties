@@ -219,7 +219,7 @@
           ],
           "material": "CdSe",
           "name": "Cadmium Selenide"
-        },
+        // },
         {
           "properties": [
             {
@@ -314,7 +314,6 @@
           "name": "Cadmium Telluride"
         },
         {
-<<<<<<< HEAD
           "material": "CuInS2",
           "kind": "Semiconductors",
           "properties": [
@@ -435,8 +434,6 @@
           ]
         },
         {
-=======
->>>>>>> 4af8424e8602a3a4c7acfc36a3e48bdfc2d9fdac
           "properties": [
             {
               "data": [
@@ -1313,6 +1310,11 @@
                   "ref": "YaoOME2013",
                   "unit": "eV",
                   "value": 2.67
+                },
+                {
+                  "ref": "LiML2006",
+                  "unit": "eV",
+                  "value": 2.822
                 }
               ],
               "property": "E_g",
@@ -1389,6 +1391,11 @@
                   "ref": "YaoOME2013",
                   "unit": "eV",
                   "value": 2.29
+                },
+                {
+                  "ref": "LiML2006",
+                  "unit": "eV",
+                  "value": 2.394
                 }
               ],
               "property": "E_g",
@@ -1518,8 +1525,6 @@
           ]
         },
         {
-<<<<<<< HEAD
-=======
           "material": "CuInS2",
           "kind": "Semiconductors",
           "properties": [
@@ -1640,7 +1645,6 @@
           ]
         },
         {
->>>>>>> 4af8424e8602a3a4c7acfc36a3e48bdfc2d9fdac
           "material": "pentacene",
           "kind": "small molecule donor",
           "properties": [
