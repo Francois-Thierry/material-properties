@@ -1,0 +1,41 @@
+html, body {
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        overflow: hidden;
+
+      }
+
+.hide-scroll {
+  overflow: hidden;
+  max-width: 800px;
+  margin: 0 auto;
+  /*background-color: lightgrey;*/
+  /*padding: 0 10px;*/
+  height: 100%;
+  width:100%;
+  position: relative;
+  top: 7em;
+    /*height: 100%;*/
+    /*width: 100%;*/
+    /*padding-right: 10px;*/
+      /*margin-right: -25px;*/
+  /*padding-right: 10px;*/
+  /*padding-left: 8px;*/
+}
+
+.viewport {
+  overflow: auto;
+  /* Make sure the inner div is not larger than the container
+     * so that we have room to scroll.
+     */
+  max-height: 88%;
+  /* Pick an arbitrary margin/padding that should be bigger
+     * than the max width of all the scroll bars across
+     * the devices you are targeting.
+     * padding = -margin
+     */
+  margin-right: -1em;
+  /*padding-right: 1em;*/
+  /*padding-left: 8px;*/
+}
