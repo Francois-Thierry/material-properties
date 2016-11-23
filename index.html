@@ -1,40 +1,107 @@
 <!DOCTYPE html>
 <html>
-  <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Material Properties</title>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+<title class="EN">Material Properties</title>
+<title class="FR">Propriétés des Matériaux</title>
 
-    <script src="js/jquery-2.1.1.js"></script>
-    <script src="js/d3.3.5.5.min.js"></script>
+  <!-- <script src="js/jquery-2.1.1.js"></script> -->
+  <!-- <script src="js/d3.3.5.5.min.js"></script> -->
 
-    <link rel="stylesheet" href="css/search-bar.css">
-    <link rel="stylesheet" href="css/hiden-scroll.css">
-    <link rel="stylesheet" href="css/accordion.css">
-    <!-- <link rel="stylesheet" href="css/graph.css"> -->
+  <link rel="stylesheet" href="../assets/main.css">
+  <!-- <link rel="stylesheet" href="../assets/external/awesomplete.css"> -->
+  <link rel="stylesheet" href="material-properties.css">
 
-  </head>
-  <body>
+    <!-- <link rel="stylesheet" href="css/search-bar.css"> -->
+  <!-- <link rel="stylesheet" href="css/hiden-scroll.css"> -->
+  <!-- <link rel="stylesheet" href="css/graph.css"> -->
+  <!-- <link rel="stylesheet" href="css/accordion.css"> -->
 
-    <div id="search-bar" class="heading-primary"></div>
+  <script src="../assets/external/jquery-3.1.0.min.js"></script>
+  <script src="../assets/external/d3.v4.2.4.min.js"></script>
+  <script src="../assets/external/awesomplete.min.js"></script>
+  <script src="../assets/external/bibtexParse.js"></script>
+
+</head>
+<body>
+
+<div class="wrapper">
+  <div class="header"></div>
+  <div class="column-12">
+    <h1 class="EN">Material physical properties</h1>
+    <h1 class="FR">Propriétés physiques des matériaux</h1>
+    <p class="EN" style="margin-bottom:0;">
+      Interactive version of a database for scientific use. Materials properties (mostly semiconductors) come from research articles and were used to perform calculations during my PhD thesis.
+    </p>
+    <p class="FR">
+      Version interactive d'une base de données pour utilisation scientifique. Les propriétés des matériaux (surtout des semiconducteurs) proviennent d'articles de recherche, je les utilisais pour des calculs lors de mon doctorat.
+    </p>
+  </div>
+  <p class="column-11 caption infos EN">
+    <b>Infos :</b>
+    Search for materials or composants in the search bar (ex: type "Cd"). You can search for an arbitrary number of materials, their properties are then displayed. If there are different values for a property, the mean value and its standard deviation are calculated. By clicking on a property you can access the different values collected with a link to the sources.
+  </p>
+  <p class="column-11 caption infos FR">
+    <b>Infos :</b>
+    Recherchez des matériaux ou des composants dans la barre de recherche (ex: entrez "Cd"). Vous chercher un nombre arbitraire de matériaux, leurs propriétés sont ensuite affichées. Si il ya plusieurs valeurs pour une propriété, la valeur moyenne ainsi que sa déviation satndard sont calculées. En cliquant sur une propriété vous pouvez accéder aux différentes valeurs collectées et leurs références respectives.
+  </p>
+  <div class="row plot">
+  <div class="column-12">    
+    <div class="row-action">
+      <img src="../assets/img/italic.svg" class="infos-action">
+    </div>
+    <input id="search-bar" data-multiple class="row"/>
+    <div  id="properties" class="accordion"></div>
+  </div>
+  </div>
+    <div class="detailsSection column-12">
+    <h3 class="EN">Details</h3>
+    <h3 class="FR">Détails</h3>
+    <div class="details">
+      <div class="line-separator"></div>
+      <div class="EN column-12">      
+        <p>
+          I gathered the material properties during my PhD thesis. I used it then to perform calculations on the quantum confinement of electrons in semiconductor nanostructures. There are also some positions of electronic orbitals of organic polymers that I used for hybrid solar cells modelization. I accessed the materials of the JSON file from Python with the "jsonpath" library for convenience.
+        </p>
+        <p>
+          This project made me choose <a href="https://leaverou.github.io/awesomplete/">Awesomplete</a> to implement a search bar that I will use in other projects. I plan to extend the search (search all and for property), to include a form to modify the database and to have the possibility to export selected properties in different formats (csv, LaTex table, image). I also would like to display graphics for the search by property.
+        </p>
+      </div>
+      <div class="FR column-12">      
+        <p>
+          J'ai rassemblé les propriétés de ces matériaux lors de ma thèse de doctorat. Je m'en servais alors pour réaliser des calculs sur le confinement quantique des électrons dans les nanostructures semiconductrices. Il y a aussi un certain nombre de positions d'orbitales électroniques de polymères organiques que j'utilisais lors de modélisations de cellules solaires hybrides. J'accédais au matériaux du fichier JSON depuis Python en utilisant la librairie "jsonpath" par convénience.
+        </p>
+        <p>
+          Ce projet m'a permis de choisir <a href="https://leaverou.github.io/awesomplete/">Awesomplete</a> pour réaliser une barre de recherche que je réutiliserai dans d'autres projets. Je prévois d'améliorer la recherche (recherche tous et propriété), d'inclure un formulaire pour modifier la base de données et d'avoir la possibilité d'exporter différents formats (csv, tableau LaTex, image) de propriétés sélectionnées. J'aimerai également proposer des graphiques lors de la recherche par propriété.
+        </p>
+      </div>
+      <div class="line-separator"></div>
+    </div>
+  </div>
+  <div class="footer"></div>
+</div>
+
+
+<!--     <div id="search-bar" class="heading-primary"></div>
 
     <div class="hide-scroll">
       <div class="viewport">
         <div  id="properties" class="accordion"></div>
       </div>
-    </div>
+    </div> -->
 
     <script language="JavaScript">
 
       //Variable to hold autocomplete options
-      var keys;
+      var data;
       var biblio;
-      var current_material;
+      var material;
       var property;
       var selected_graph;
 
       d3.json("data/material_properties.json",function (json) {
-        keys=json;
+        data=json;
         start();
       });
 
@@ -42,32 +109,55 @@
        biblio = bibtexParse.toJSON(data);
       }, 'text');
 
-      //Call back for when user selects an option
-      function onSelect(material) {
-        current_material = material
-        make_properties_accordion(material);
-        // draw(material);
-        // $('.properties_list').accordion({active:'false'});
+      $("input").val("");
+
+      function start() {
+        var input = document.getElementById("search-bar");
+        var awesomplete = new Awesomplete('input[data-multiple]', {
+          filter: function(text, input) {
+            return Awesomplete.FILTER_CONTAINS(text, input.match(/[^,]*$/)[0]);
+          },
+          replace: function(text) {
+            var before = this.input.value.match(/^.+,\s*|/)[0];
+            this.input.value = before + text + ", ";
+          }
+        });
+        awesomplete.minChars = 1;
+        awesomplete.list = data.map(function(el){return el.material});
+        $("input").on("awesomplete-selectcomplete", function() {makeAccordion(this.value)})
+        $("input").on("awesomplete-close", function() {makeAccordion(this.value)})
       }
 
-      //Setup and render the autocomplete
-      function start() {
-          var mc = autocomplete(document.getElementById('search-bar'))
-                  .keys(keys)
-                  .dataField("material")
-                  .placeHolder("Search for a Material")
-                  .onSelected(onSelect)
-                  .render();
+      function makeAccordion(searchString) {
+        var materials = searchString.split(",");
+        document.getElementById('properties').innerHTML = '';
+        for (var i=0; i<materials.length; i++) {
+          if (materials[i] != " ") {
+            material = data.filter(function(el) {return el.material == $.trim(materials[i])})[0];
+            if (material) {            
+              if (material.name != undefined) {
+                $("#properties").append("<h3>"+material.name+" - "+material.material+"</h3>");
+              } else {
+                $("#properties").append("<h3>"+material.material+"</h3>");
+              }
+              make_properties_accordion(material);
+            }
+          }
+        }
       }
 
   </script>
 
-  <script type="text/javascript" src="js/find-in-json.js"></script>
-  <script type="text/javascript" src="js/autocomplete.js"></script>
-  <script type="text/javascript" src="js/bibtexParse.js"></script>
+  <script src="../assets/main.js"></script>
+  <script type="text/javascript">
 
-  <script src="js/properties-accordion.js"></script>
-  <script src="js/accordion.js"></script>
+    // update header github link
+    $(".header-button.github").attr("href", "https://github.com/francois-thierry/material-properties")
+
+  </script>
+
+  <script src="material-properties.js"></script>
+<!--   <script src="js/accordion.js"></script> -->
 
   </body>
 </html>

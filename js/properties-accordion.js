@@ -8,7 +8,7 @@
 
 // Helper function to parse years
 
-var parseYear = d3.time.format("%Y").parse;
+var parseYear = d3.timeFormat("%Y").parse;
 
 function reload_js(src) {
     $('script[src="' + src + '"]').remove();

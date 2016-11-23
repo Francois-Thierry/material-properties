@@ -1,0 +1,218 @@
+.awesomplete {
+  border: 0;
+  padding-bottom: 0.5em;
+  /*padding-top: 0.5em;*/
+  background: transparent;
+}
+.awesomplete input {
+  width: 100%;
+  font-size: 1.2em;
+  padding: 0.5em;
+  border: 2pt solid #212121;
+  background-color: white;
+}
+.awesomplete ul {
+  /*font-size: 1.2em;*/
+  text-align: left;
+  padding: 0.5em;
+  border: 1pt solid #212121;
+  border-top: 0pt;
+  background-color: white;
+}
+.awesomplete li {
+  background: transparent;
+  list-style-type: none;
+  cursor: pointer;
+}
+.awesomplete li[aria-selected="true"]{
+  font-weight: bold;
+}
+.awesomplete mark {
+  background: transparent;
+}
+.awesomplete .visually-hidden {
+  display: none;
+}
+
+#properties {
+  text-align: left;
+  padding-top: 0;
+  background-color: white;
+}
+
+#properties h3 {
+  /*font-size: 1.4em;*/
+  padding-bottom: 0.3em;
+  padding-top: 0.3em;
+  padding-left: 0.5em;
+  margin-top: 0.7em;
+  color: #212121;
+  background-color: #FAFAFA;
+  /*background-color: white;*/
+  border: 0.5pt solid #9e9e9e;
+  cursor: default;
+  font-weight: normal;
+  font-size: 1.2em;
+}
+
+#properties h3:first-child {
+  /*padding-top: 0;*/
+}
+
+/*#properties h3::before {
+  content: "";
+  display: inline-block;
+   width: 12px;
+   height: 12px;
+   -moz-border-radius: 12px;
+   -webkit-border-radius: 12px;
+   border-radius: 12px;
+   background-color: #212121;
+   border: 2pt solid #212121;
+   margin-left: 4px;
+   margin-right: 12px;
+}*/
+
+#properties .property {
+  cursor: pointer;
+  font-size: 1em;
+}
+
+#properties .property:hover {
+  background-color: #F5F5F5;
+}
+
+#properties .property:before {
+  content: "+";
+  font-size: 1.4em;
+  /*line-height: 1.2em;*/
+  /*position: absolute;*/
+  /*float: left;*/
+  padding-left: 8px;
+  padding-right: 12px;
+  /*padding-top: 0.5em;*/
+  background:transparent;
+  -webkit-transition: -webkit-transform 0.3s ease-in-out;
+  -moz-transition: -webkit-transform 0.3s ease-in-out;
+  -o-transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+}
+
+#properties .property.active:before {
+    -webkit-transform: translate(2px, 2px) rotate(-225deg);
+          transform: translate(2px, 2px) rotate(-225deg);
+}
+
+#properties .property-item {
+  display: table;
+  vertical-align: center;
+  margin: 1em 0;
+  background: transparent; 
+}
+#properties .property-value {
+  font-weight: bold;
+  display: block;
+  text-align: left;
+  padding-right: 1em;
+  background: transparent;
+}
+#properties .property-source {
+  display: table-cell;
+  background: transparent; 
+}
+#properties .property-source a {
+  font-size: ;
+}
+
+/*.bibitem > * {
+  font-size: 0.8em;
+}*/
+
+/* smartphones, iPhone, portrait 480x320 phones */
+@media (min-width:320px) { 
+/*  h1 {font-size: 1.6em;}
+  h2 {font-size: 1.5em;}
+  i {
+    font-size: 1.1em;
+  }
+  p {
+    font-size: 1em;
+  }
+  .caption {
+    font-size: 0.8em;
+  }*/
+}
+/* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+@media (min-width:481px) {
+  .bibitem {
+    padding-left: 2.5em;
+  }
+/*  [class*='column-'] {
+    text-align: justify;
+  }
+  .column-1 { width: 8.33333%; }
+  .column-2 { width: 16.66667%; }   
+  .column-3 { width: 25%; }   
+  .column-4 { width: 33.33333%; }   
+  .column-5 { width: 41.66667%; }   
+  .column-6 { width: 50%; }   
+  .column-7 { width: 58.33333%; }   
+  .column-8 { width: 66.66667%; }   
+  .column-9 { width: 75%; }   
+  .column-10 { width: 83.33333%; }   
+  .column-11 { width: 91.66667%; }   
+  .column-12 { width: 100%; }
+  .wrapper {
+    width: 95%;
+    max-width: 961px;
+  }
+  h1 {
+    font-size: 2em;
+  }
+  h2 {font-size: 1.8em;}
+  i {
+    font-size: 1.3em;
+  }
+  p {
+    font-size: 1.1em;
+  }
+  .caption {
+    font-size: 0.9em;
+  }
+  .header, .footer {
+    min-height: 4em;
+  }*/
+}
+/* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+@media (min-width:641px) { 
+/*  h1 {
+    font-size: 2.2em;
+  }
+  h3 {
+    font-size: 1.3em;
+  }
+  .header, .footer {
+    min-height: 5em;
+  }*/
+}
+/* tablet, landscape iPad, lo-res laptops ands desktops */
+@media (min-width:961px) {
+/*  h3 {
+    font-size: 1.4em;
+  }*/
+}
+/* big landscape tablets, laptops, and desktops */
+@media (min-width:1025px) {
+/*  h1 {
+    font-size: 2.4em;
+  }
+  p {
+    font-size: 1.2em;
+  }
+  .caption {
+    font-size: 1em;
+  }*/
+}
+/* hi-res laptops and desktops */
+@media (min-width:1281px) { 
+}
